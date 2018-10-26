@@ -1,0 +1,63 @@
+
+html {
+    background-image: url(topography.png);
+    align-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Mali', cursive;
+}
+body > div{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+nav {
+    width: auto;
+    height: 30px;
+    background-color:#333333;
+}
+nav a{
+    color:#ff0099;
+    float: right;
+    padding: 10px;
+}
+nav img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    float: left;
+}
+.name{
+    font-size: 40px;
+    font-display: bold;
+}
+.wiki-titles{
+    text-align: center;
+}
+.fullstack {
+    color: #ff0099;
+    font-size: 30px;
+}
+
+p{
+    font-family: consolas, courier;
+    font-size: 20px;
+    color: black;
+}
+hr {
+    display: block;
+    border: 0;
+    text-align: center;
+    overflow: visible;
+}
+.separator::before {
+    content: '- - -';
+    display: inline-block;
+    color: black;
+    position: relative;
+    font-size: 40px;
+}
