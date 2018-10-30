@@ -6,6 +6,9 @@ public class DrawTriangle {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-        System.out.println("*" * number);
+        for (int i = 1; i < number; i++) {
+            System.out.println(new String(new char[i]).replace("\0","*"));
+        }
+
     }
 }
