@@ -1,4 +1,4 @@
-import java.util.Random;
+/*import java.util.Random;
 import java.util.Scanner;
 
 public class GuessTheNumber {
@@ -24,4 +24,4 @@ public class GuessTheNumber {
         }
         while(number != stored);
     }
-}
+}*/
