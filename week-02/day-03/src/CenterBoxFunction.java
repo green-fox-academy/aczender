@@ -4,28 +4,25 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class GoToCenter {
+public class CenterBoxFunction {
+
     public static void mainDraw(Graphics graphics) {
-        // Create a line drawing function that takes 2 parameters:
-        // The x and y coordinates of the line's starting point
-        // and draws a line from that point to the center of the canvas.
-        // Draw 3 lines with that function. Use loop for that.
+        // create a square drawing function that takes 1 parameter:
+        // the square size
+        // and draws a square of that size to the center of the canvas.
+        // draw 3 squares with that function.
+        // avoid code duplication.
 
-        int x = 10;
-        int y = 10;
-        centerLine(x,y,graphics);
-
+        int size = 50;
+        centerSquare(size, graphics);
     }
 
-    public static void centerLine(int x, int y, Graphics graphics) {
-        graphics.setColor(Color.GREEN);
-
+    private static void centerSquare(int size, Graphics graphics) {
         for (int i = 0; i < 3; i++) {
-            graphics.drawLine(x, y, 160, 160);
-            x=x+20;
-        }
-            
 
+            graphics.drawRect((WIDTH - size) / 2, (HEIGHT - size) / 2, size, size);
+            size = size + 50;
+        }
     }
 
 
@@ -52,4 +49,3 @@ public class GoToCenter {
         }
     }
 }
-
