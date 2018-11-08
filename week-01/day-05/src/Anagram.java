@@ -11,9 +11,6 @@ public class Anagram {
 
         System.out.println(anagram(first, second));
 
-        //if (first.length() != second.length()) return;
-
-
     }
 
     public static boolean anagram(String first, String second) {
@@ -31,10 +28,7 @@ public class Anagram {
 
         else
             return false;
-
     }
-
-
 }
 
 
