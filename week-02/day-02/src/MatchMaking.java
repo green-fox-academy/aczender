@@ -20,6 +20,7 @@ public class MatchMaking {
     private static ArrayList<String> makingMatches(ArrayList<String> girls, ArrayList<String> boys) {
         ArrayList<String> party = new ArrayList<>();
 
+        //party.addAll(girls);
         for (int i = 0; i < girls.size(); i++) {
             party.add(girls.get(i));
             party.add(boys.get(i));

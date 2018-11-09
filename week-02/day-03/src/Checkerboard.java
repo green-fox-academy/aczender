@@ -9,22 +9,18 @@ public class Checkerboard {
         // Fill the canvas with a checkerboard pattern.
         int x = 0;
         int y = 0;
-
-        //graphics.setColor(Color.WHITE);
-
         board(x, y, graphics);
     }
 
     private static void board(int a, int b, Graphics graphics) {
         int size = 10;
 
-
         for (int i = 0; i < WIDTH; i++) {
             for (int j = 0; j < HEIGHT; j++) {
                 a = j * size;
                 b = i * size;
 
-                if ((i % 2 == 0) == (j % 2== 0)) {
+                if ((i % 2 == 0) == (j % 2 == 0)) {
                     graphics.setColor(Color.BLACK);
                     graphics.fillRect(a, b, size, size);
                 } else {
