@@ -5,35 +5,27 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class Triangles {
     public static void mainDraw(Graphics graphics) {
-        int[] base = {10, 280, 20, 280};
-        int[] base2 = {20, 280, 15, 280};
-        int[] base3 = {15, 280, 10, 280};
-        int a = 10;
-        int b = 280;
-        int length = 20;
+        int x = 0;
+        int y = 280;
+        int length = 10;
 
-        for (int j = 0; j < 11; j++) {
-
-            for (int i = 0; i < length; i++) {
-                triangleBase(a, b, graphics);
-                a = a + 10;
+        for (int j = 1; j < 10; j++) {          // this for loop adds another row to the top of
+            // the other
+            for (int i = 1; i < length; i++) {  //this for loop creates a row of triangles
+                triangleBase(x, y, graphics);
+                x += 20;
             }
-
-            a = 10;
-            triangleBase(a, b, graphics);
-            b = b - 10;
-            length = length - 2;
-
+            x = j * 10;
+            y = y - 20;
+            length = length - 1;
         }
-
-
     }
 
-    public static void triangleBase(int a, int b, Graphics graphics) {
+    public static void triangleBase(int x, int y, Graphics graphics) {
+        int[] a = new int[]{x, x + 20, x + 10};
+        int[] b = new int[]{y, y, y - 20};
 
-        graphics.drawLine(a, b, a + 10, b);
-        graphics.drawLine(a + 10, b, a + 5, b - 10); //40, 20, 35, 30
-        graphics.drawLine(a + 5, b - 10, a, b); //35, 30, 30, 20
+        graphics.drawPolygon(a, b, 3);
     }
 
     // Don't touch the code below
