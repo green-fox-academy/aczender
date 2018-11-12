@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a97d92-3b44-4640-8f67-ef24c9defc54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/countinglines.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiple.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideByZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintEachLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WriteMultipleLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WriteSingleLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/PalindromeBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-01/day-05/src/Unique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,26 +32,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
-          <entry key="txt" value="8" />
+          <entry key="java" value="18" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="18" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2391" />
-          <entry key="txt" value="35" />
+          <entry key="java" value="4870" />
+          <entry key="txt" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2391" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="JAVA" value="4870" />
+          <entry key="PLAIN_TEXT" value="156" />
         </counts>
       </usages-collector>
     </session>
@@ -69,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MatReview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="554">
               <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="27">
               <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,22 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CountLines.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="255">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
@@ -117,23 +97,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WriteSingleLine.java">
+        <entry file="file://$PROJECT_DIR$/src/CountLines.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="265">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Logs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DivideByZero.java">
+        <entry file="file://$PROJECT_DIR$/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="49" />
-              <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -160,6 +151,11 @@
         <option value="$PROJECT_DIR$/src/CountLines.java" />
         <option value="$PROJECT_DIR$/src/WriteSingleLine.java" />
         <option value="$PROJECT_DIR$/src/WriteMultipleLines.java" />
+        <option value="$PROJECT_DIR$/first.txt" />
+        <option value="$PROJECT_DIR$/second.txt" />
+        <option value="$PROJECT_DIR$/src/CopyFile.java" />
+        <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/src/Logs.java" />
       </list>
     </option>
   </component>
@@ -169,7 +165,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="793" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -203,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542023716602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542034630733" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -219,7 +215,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WriteMultipleLines">
+  <component name="RunManager" selected="Application.Logs">
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CopyFile" />
+      <module name="day-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountLines" />
       <module name="day-01" />
@@ -227,15 +230,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivideByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DivideByZero" />
-      <module name="day-01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintEachLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintEachLine" />
+    <configuration name="Logs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Logs" />
       <module name="day-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,19 +252,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DivideByZero" />
-      <item itemvalue="Application.PrintEachLine" />
       <item itemvalue="Application.CountLines" />
       <item itemvalue="Application.WriteSingleLine" />
       <item itemvalue="Application.WriteMultipleLines" />
+      <item itemvalue="Application.CopyFile" />
+      <item itemvalue="Application.Logs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Logs" />
+        <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.WriteMultipleLines" />
         <item itemvalue="Application.WriteSingleLine" />
         <item itemvalue="Application.CountLines" />
-        <item itemvalue="Application.DivideByZero" />
-        <item itemvalue="Application.PrintEachLine" />
       </list>
     </recent_temporary>
   </component>
@@ -283,18 +279,26 @@
       <option name="presentableId" value="Default" />
       <updated>1541942163788</updated>
       <workItem from="1541942167807" duration="3037000" />
-      <workItem from="1541999968707" duration="11195000" />
+      <workItem from="1541999968707" duration="22024000" />
     </task>
+    <task id="LOCAL-00001" summary="MatReview, DivideByZero, CountLines, PrintEachLine, WriteMultipleLines, WriteSingleLine + txt files">
+      <created>1542023833095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542023833095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14232000" />
+    <option name="totallyTimeSpent" value="25061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="793" y="0" width="814" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24871466" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.51193637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,8 +307,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32823366" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33521128" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39859155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -330,6 +334,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MatReview, DivideByZero, CountLines, PrintEachLine, WriteMultipleLines, WriteSingleLine + txt files" />
+    <option name="LAST_COMMIT_MESSAGE" value="MatReview, DivideByZero, CountLines, PrintEachLine, WriteMultipleLines, WriteSingleLine + txt files" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/countinglines.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -341,9 +349,36 @@
     <entry file="file://$PROJECT_DIR$/my-file.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/multiple.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MatReview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="554">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -353,7 +388,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DivideByZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="112">
           <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="49" />
           <folding>
             <element signature="e#241#242#0" expanded="true" />
@@ -362,44 +397,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WriteSingleLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-7">
           <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrintEachLine.java">
+    <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
+        <state relative-caret-position="238">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CountLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="265">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiple.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WriteMultipleLines.java">
+    <entry file="file://$PROJECT_DIR$/src/Logs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="178">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
           </folding>
         </state>
       </provider>
