@@ -10,9 +10,12 @@ public class Main {
         farm.addAnimal(new Animal("mouse",4));
 
 
-        //farm.breed();
-        farm.slaughter();
+        farm.breed();                       //adding 1 animal
+        for (int i = 0; i < 5; i++) {       //slaughter method in action
+            farm.slaughter();
+        }
 
+        System.out.println(farm);
 
     }
 }

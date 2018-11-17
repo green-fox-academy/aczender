@@ -5,12 +5,10 @@ public class Animal {
     int thirst;
     String name;
 
-
     public Animal(String name, int hunger) {
         this.hunger = hunger;
         this.name = name;
     }
-
 
     public void eat() {
         hunger -= 1;
@@ -24,5 +22,6 @@ public class Animal {
         thirst += 1;
         hunger += 1;
     }
+
 
 }
