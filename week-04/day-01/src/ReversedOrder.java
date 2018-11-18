@@ -12,7 +12,7 @@ public class ReversedOrder {
     }
 
     public static void reversedO(String path) {
-        Path filePath = Paths.get("reversed-order.txt");
+        Path filePath = Paths.get(path);
         try {
             List<String> lines = Files.readAllLines(filePath);
 
