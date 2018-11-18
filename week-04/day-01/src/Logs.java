@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 // Read all data from 'log.txt'.
@@ -13,6 +14,7 @@ public class Logs {
     public static void main(String[] args) {
         ip();
         ratio();
+        System.out.println(uniqueIPs("log.txt"));
 
     }
 
@@ -24,13 +26,29 @@ public class Logs {
             for (String line : lines) {
                 count++;
                 line.substring(27, 38);
-
-                //Try to solve it with split as well
             }
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static ArrayList<String> uniqueIPs(String p) {
+        Path path = Paths.get(p);
+        ArrayList<String> ips = new ArrayList<>();
+
+        try {
+            List<String> lines = Files.readAllLines(path);
+            for (int i = 0; i < lines.size(); i++) {
+                String[] s = (lines.get(i).split(" "));
+                if (!ips.contains(s[8])) {
+                    ips.add(s[8]);
+                }
+            }
+        } catch (IOException e) {
+
+        }
+        return ips;
     }
 
     public static void ratio() {
