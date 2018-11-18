@@ -13,19 +13,17 @@ public class ReversedLines {
     }
 
     private static void toReverse(String path) {
-        Path filePath = Paths.get("reversed-lines.txt");
+        Path filePath = Paths.get(path);
+        String reverse = "";
         try {
             List<String> lines = Files.readAllLines(filePath);
-            String reverse = "";
-            List<String> reversed = new ArrayList<>();
             for (String line : lines) {
                 for (int i = 0; i < line.length(); i++) {
                     reverse = reverse + line.charAt(line.length() - 1 - i);
                 }
-                reversed.add(reverse);
-
-                System.out.println(reverse);
+                reverse += "";
             }
+            System.out.println(reverse);
 
         } catch (
                 IOException e) {
