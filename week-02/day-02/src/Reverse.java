@@ -17,6 +17,11 @@ public class Reverse {
 
 
         // System.out.println(reverse(reversed));
+
+        //SOLUTION II. WITH CHARAT
+        /*String reverse = "";
+        for ( int i = reversed.length() - 1 ; i >= 0 ; i-- ) {
+            reverse = reverse + reversed.charAt(i);*/
     }
 
     //SOLUTION WITH CHARAT
@@ -25,6 +30,9 @@ public class Reverse {
             return reversed;
         return reversedString(reversed.substring(1)) + reversed.charAt(0);
     }
+
+
+
 
 
 }
