@@ -16,7 +16,7 @@ public class Doubled {
         Path filePath = Paths.get("duplicated-chars.txt");
         try {
             List<String> lines = Files.readAllLines(filePath);
-            StringBuilder sb = new StringBuilder();
+           // StringBuilder sb = new StringBuilder();
             for (String line : lines) {
                 for (int i = 0; i < line.length(); i++) {
                     if (i % 2 == 0) {
