@@ -7,7 +7,6 @@ public class ParaMetricAverage {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-        int input = 0;
         int sum = 0;
         System.out.println("Please add more numbers: ");
         for (int i = 0; i < number; i++) {
