@@ -3,12 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="877b9b95-9b3e-43a2-a869-a05d0f5491bc" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../week-04/day-01/src/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/Blog.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/BlogPost.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/Armada.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/WarApp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-04/src/String1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/day-05.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/src/Triangles.java" afterDir="false" />
@@ -18,11 +23,14 @@
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Sponsor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparable/Domino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparable/Dominoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/charsequence/Gnirts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/Fleet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/FleetOfThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/Thing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/PalindromeBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" afterDir="false" />
@@ -53,25 +61,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="20" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1357" />
-          <entry key="txt" value="9" />
+          <entry key="java" value="1562" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1357" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="JAVA" value="1562" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -79,43 +87,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cloneable/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="66" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="66" />
-              <folding>
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cloneable/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cloneable/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comparable/Domino.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="238">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
@@ -128,11 +103,55 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comparable/Thing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comparable/Fleet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/comparable/FleetOfThings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comparable/Dominoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="207">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,6 +191,11 @@
         <option value="$PROJECT_DIR$/src/cloneable/Person.java" />
         <option value="$PROJECT_DIR$/src/comparable/Domino.java" />
         <option value="$PROJECT_DIR$/src/comparable/Dominoes.java" />
+        <option value="$PROJECT_DIR$/src/comparable/Todo.java" />
+        <option value="$PROJECT_DIR$/src/comparable/FleetOfThings.java.java" />
+        <option value="$PROJECT_DIR$/src/comparable/Fleet.java" />
+        <option value="$PROJECT_DIR$/src/comparable/FleetOfThings.java" />
+        <option value="$PROJECT_DIR$/src/comparable/Thing.java" />
       </list>
     </option>
   </component>
@@ -204,6 +228,12 @@
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="comparable" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -215,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542805362421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542807885137" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-02/src/greenfoxinheritance" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,6 +253,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felhasználó\Documents\greenfox\aczender\week-05\day-03\src\comparable" />
       <recent name="C:\Users\felhasználó\Documents\greenfox\aczender\week-05\day-03\src\cloneable" />
     </key>
   </component>
@@ -238,9 +269,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dominoes">
+  <component name="RunManager" selected="Application.FleetOfThings">
     <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comparable.Dominoes" />
+      <module name="day-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable.FleetOfThings" />
       <module name="day-03" />
       <extension name="coverage">
         <pattern>
@@ -282,9 +326,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Dominoes" />
+      <item itemvalue="Application.FleetOfThings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FleetOfThings" />
         <item itemvalue="Application.Dominoes" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -301,7 +347,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542789891479</updated>
-      <workItem from="1542789894928" duration="9741000" />
+      <workItem from="1542789894928" duration="12344000" />
     </task>
     <task id="LOCAL-00001" summary="Cloneable">
       <created>1542803093663</created>
@@ -310,11 +356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542803093667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comparator">
+      <created>1542805403514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542805403514</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9741000" />
+    <option name="totallyTimeSpent" value="12344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="793" y="0" width="814" height="867" extended-state="0" />
@@ -334,7 +387,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32957748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,7 +411,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cloneable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cloneable" />
+    <MESSAGE value="Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,10 +567,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/charsequence/Gnirts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/Todo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/FleetOfThings.java.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/Fleet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/comparable/Domino.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="238">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
@@ -530,8 +618,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comparable/Dominoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="207">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/Thing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/FleetOfThings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
