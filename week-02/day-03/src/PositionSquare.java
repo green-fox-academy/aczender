@@ -22,10 +22,10 @@ public class PositionSquare {
 
     private static void squareDraw(int a, int b, Graphics graphics) {
         int size = 50;
-        for (int i = 0; i < 3; i ++) {
+        for (int i = 0; i < 3; i++) {
             graphics.drawRect(a, b, size, size);
-            a= a+size;
-            b= b+ size;
+            a = a + size;
+            b = b + size;
 
         }
 
