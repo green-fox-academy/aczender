@@ -2,14 +2,16 @@ import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args) {
-        System.out.println(factorio());
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        System.out.println(factorio(5));
 
     }
 
-        public static int factorio () {
-            Scanner scanner = new Scanner(System.in);
+        public static int factorio(int number) {
+
             int fact = 1;
-            int number = scanner.nextInt();
+
 
             for (int i = 1; i <= number; i++) {
                 fact = fact * i;
