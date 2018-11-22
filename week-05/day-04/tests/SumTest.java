@@ -22,8 +22,33 @@ class SumTest {
     void sum() {
         int expectedresult = 10;
         ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(1,2,3,4));
-
-
         assertEquals(expectedresult, SumTest.sum(arrayList));
     }
+    @Test
+    void sumEmpty() {
+        int expectedresult = 0;
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        assertEquals(expectedresult, SumTest.sum(arrayList));
+    }
+    @Test
+    void sumOne() {
+        int expectedresult = 7;
+        ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(7));
+        assertEquals(expectedresult, SumTest.sum(arrayList));
+    }
+    @Test
+    void sumNull() {
+        Integer expectedresult = null;
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        assertNull(expectedresult);
+
+    }
+
+    @Test
+    void sumOtherNull(){
+        assertThrows(NullPointerException.class, () -> {
+            SumTest.sum(null);
+        });
+    }
+
 }
