@@ -13,7 +13,5 @@ public class Sum {
         }
         return sum;
     }
-
-    //public int getSum(List<Integer>)
 }
 
