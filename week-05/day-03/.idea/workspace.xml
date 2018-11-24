@@ -3,46 +3,59 @@
   <component name="ChangeListManager">
     <list default="true" id="877b9b95-9b3e-43a2-a869-a05d0f5491bc" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../week-04/day-01/src/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/Post_it.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Postits.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/MatReview.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/Blog.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/BlogPost.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/Armada.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/WarApp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-04/src/String1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/day-05.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/src/Triangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_matReview/04_matReview.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/greenfoxinheritance/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Mentor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Sponsor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/music/Bass_Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/music/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/music/StringedInstrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/music/Violin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-04/intelliJ projects/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/day-03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-05/day-05.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/PalindromeBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/day-02/Post_it/Post_it.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-04/src/NumberAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-04/src/NumberAdder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/aircraft/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/aircraft/Aircraft.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/src/aircraft/Carrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/aircraft/Carrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/aircraft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/aircraft/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/music/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/music/StringedInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/StringedInstrument.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,63 +68,88 @@
     <session id="506426794">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="41" />
+          <entry key="java" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3223" />
-          <entry key="txt" value="56" />
+          <entry key="java" value="3227" />
+          <entry key="txt" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3223" />
-          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="JAVA" value="3227" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/music/Violin.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/music/Instrument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="13" />
               <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/music/StringedInstrument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#156#157#0" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/music/Violin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,10 +197,10 @@
         <option value="$PROJECT_DIR$/src/charsequence/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Violin.java" />
         <option value="$PROJECT_DIR$/src/AppMusic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/music/StringedInstrument.java" />
-        <option value="$PROJECT_DIR$/src/main/java/music/Instrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Bass_Guitar.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/music/StringedInstrument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/music/Instrument.java" />
       </list>
     </option>
   </component>
@@ -213,15 +251,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542826146867" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week-04/day-02" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543092295485" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-04" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -331,7 +369,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542789891479</updated>
-      <workItem from="1542789894928" duration="23881000" />
+      <workItem from="1542789894928" duration="24040000" />
+      <workItem from="1542894528111" duration="309000" />
+      <workItem from="1542977212283" duration="5475000" />
     </task>
     <task id="LOCAL-00001" summary="Cloneable">
       <created>1542803093663</created>
@@ -368,44 +408,51 @@
       <option name="project" value="LOCAL" />
       <updated>1542814571028</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Instruments">
+      <created>1542826197902</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542826197902</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23881000" />
+    <option name="totallyTimeSpent" value="29824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="793" y="0" width="814" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.51193637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12864721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32823366" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32545203" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32823366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -450,7 +497,8 @@
     <MESSAGE value="Comparator finished" />
     <MESSAGE value="Charsequence" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="Instruments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instruments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,10 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,10 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,10 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,12 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,33 +575,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gardenapp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gardenapp/Waterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gardenapp/Garden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gardenapp/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/gardenapp/Waterable.java" />
+    <entry file="file://$PROJECT_DIR$/src/gardenapp/Garden.java" />
     <entry file="file://$PROJECT_DIR$/../day-02/day-02.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -605,32 +614,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comparable/Todo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comparable/FleetOfThings.java.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/Todo.java" />
+    <entry file="file://$PROJECT_DIR$/src/comparable/FleetOfThings.java.java" />
     <entry file="file://$PROJECT_DIR$/src/comparable/Domino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,9 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,12 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,9 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="22" selection-start-line="22" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,24 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/StringedInstrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppMusic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -748,37 +707,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/music/Violin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#95#96#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/StringedInstrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
             <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
