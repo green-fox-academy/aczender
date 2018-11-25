@@ -5,11 +5,11 @@ public class NumberAdder {
     }
     public static int counter(int n) {
         System.out.println(n);
-        if (n == 0) {
-            return 0;
+        if (n == 1) {
+            return 1;
         }
         else {
-            return n = n + counter(n - 1);
+            return n + counter(n - 1);
         }
     }
 }
