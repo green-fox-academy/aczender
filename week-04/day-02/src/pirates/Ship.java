@@ -6,17 +6,14 @@ import java.util.List;
 
 public class Ship {
     List<Pirate> pirates = new ArrayList<>();
-    private Pirate captain;
-
-    public void addPirate(Pirate pirate) {
-        pirates.add(pirate);
-    }
+    Pirate captain;
 
 
     public void fillShip() {
-        this.captain = new Pirate();
+        this.captain = new Pirate();                           //adding a captain in the method
+        pirates.add(captain);
 
-        int piratesOnBoard = (int) ((Math.random() * 10) + 1);
+        int piratesOnBoard = (int) ((Math.random() * 10) + 1);  //adding crew to the ship
         for (int i = 0; i < piratesOnBoard; i++) {
             Pirate pirate = new Pirate();
             pirates.add(pirate);
@@ -37,7 +34,7 @@ public class Ship {
     public int alivePirates() {                         //number of alive pirates in the crew
         int counter = 0;
         for (int i = 0; i < pirates.size(); i++) {
-            if (!pirates.get(i).isDead) {
+            if (! pirates.get(i).isDead) {
                 counter++;
             }
         }
@@ -45,34 +42,42 @@ public class Ship {
 
     }
 
+    public int getScore() {                                 // score counter
+        return alivePirates() - captain.getDrinkCounter();
+    }
 
     public boolean battle(Ship otherShip) {
-        //random number for loser crew to determine deaths
-        int scoreShip1 = this.alivePirates() - this.captain.drinkCounter;
-        int scoreOtherShip = otherShip.alivePirates() - otherShip.captain.drinkCounter;
+        if (getScore() > otherShip.getScore()) {
+            otherShip.loser();
+            party();
+            return true;
+        } else {
+            otherShip.party();
+            loser();
+            return false;
+        }
 
+    }
+
+    public void loser() {
         int loserDeath = (int) (Math.random() * pirates.size()) + 1;
         for (int i = 0; i < loserDeath; i++) {
+            pirates.get(i).die();
         }
+    }
 
-        int party = (int) (Math.random()*10) + 1;
-        for (int i = 0; i < party; i++) {
+
+    public void party() {
+        int rumforWinner = (int) (Math.random() * pirates.size()) + 1;
+        for (Pirate pirate : pirates) {
+            pirate.drinkSomeRum(rumforWinner);
         }
-
-
-        if (scoreShip1 > scoreOtherShip){
-            System.out.println("First ship wins, " + loserDeath + " pirates died.");
-        } else{
-            System.out.println("Other ship wins");
-        }
-
-        return true;
+        captain.drinkSomeRum(rumforWinner);
     }
 
     @Override
     public String toString() {
-        return "The captain consumed; " + this.captain.drinkCounter + " and " +
-        this.alivePirates()  + " alive pirates.";
+        return "The captain consumed; " + this.captain.drinkCounter + " and " + this.alivePirates() + " alive pirates.";
 
     }
 

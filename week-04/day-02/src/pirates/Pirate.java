@@ -2,10 +2,23 @@ package pirates;
 
 public class Pirate {
     boolean isDead = false;
-    int drinkCounter = 0;
+
+    public boolean isDead() {
+        return isDead;
+    }
+
+    public int getDrinkCounter() {
+        return drinkCounter;
+    }
+
+    public boolean isPassedOut() {
+        return isPassedOut;
+    }
+
+    int drinkCounter;
     boolean isPassedOut = false;
 
-    public void drinkSomeRum() {
+    public void drinkSomeRum(int rum) {
         if (!isDead) {
             drinkCounter++;
         } else {
