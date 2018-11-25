@@ -1,13 +1,13 @@
 package aircraft;
 
 public class Aircraft {
-    int ammo;
-    int maxAmmo;
-    int baseDamage;
+    private int ammo;
+    private int maxAmmo;
+    private int baseDamage;
     boolean priority;
 
 
-    public Aircraft(int maxAmmo, int baseDamage) {
+    Aircraft(int maxAmmo, int baseDamage) {
         this.ammo = 0;
         this.maxAmmo = maxAmmo;
         this.baseDamage = baseDamage;
@@ -36,9 +36,7 @@ public class Aircraft {
     }
 
     public String getStatus() {
-        String status = "Type " + getType() + "Ammo: " + ammo + ", Base " +
-                "Damage: " + baseDamage + ", All Damage: " + baseDamage * ammo;
-        return status;
+        return "Type " + getType() + ", Ammo: " + ammo + ", Base Damage: " + baseDamage + ", All Damage: " + baseDamage * ammo;
     }
 
     public boolean isPriority() {
@@ -60,4 +58,8 @@ public class Aircraft {
     public void setMaxAmmo(int maxAmmo) {
         this.maxAmmo = maxAmmo;
     }
+    public int getBaseDamage() {
+        return baseDamage;
+    }
+
 }
