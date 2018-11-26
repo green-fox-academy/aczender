@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="877b9b95-9b3e-43a2-a869-a05d0f5491bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-01/src/TicTacToe.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/Post_it.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Postits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/MatReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/BlogPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/blog/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/Armada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/WarApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-04/src/String1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/vcs.xml" afterDir="false" />
@@ -28,35 +15,21 @@
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/04_matReview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/greenfoxinheritance/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Sponsor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-02/src/homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZooApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoo/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoo/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoo/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyable/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyable/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyable/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flyable/Vehicle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-04/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/day-05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/PalindromeBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-02/src/teachersandstudents/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/day-04/src/NumberAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-04/src/NumberAdder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/aircraft/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/aircraft/Aircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/aircraft/Carrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/aircraft/Carrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/aircraft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/aircraft/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,48 +43,46 @@
     <session id="506426794">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="61" />
+          <entry key="java" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4079" />
-          <entry key="txt" value="87" />
+          <entry key="java" value="4211" />
+          <entry key="txt" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4079" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="JAVA" value="4211" />
+          <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Reptile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="289">
               <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
               </folding>
@@ -131,13 +102,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Mammal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="187">
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
               <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
               </folding>
@@ -145,14 +112,39 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flyable/Flyable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/flyable/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flyable/Helicopter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
               </folding>
@@ -163,14 +155,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Bird.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flyable/Bird.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -233,6 +228,10 @@
         <option value="$PROJECT_DIR$/src/main/java/zoo/Bird.java" />
         <option value="$PROJECT_DIR$/src/ZooApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/Animal.java" />
+        <option value="$PROJECT_DIR$/src/flyable/Flyable.java" />
+        <option value="$PROJECT_DIR$/src/flyable/Helicopter.java" />
+        <option value="$PROJECT_DIR$/src/flyable/Bird.java" />
+        <option value="$PROJECT_DIR$/src/flyable/Vehicle.java" />
       </list>
     </option>
   </component>
@@ -242,7 +241,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="793" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -267,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,14 +283,13 @@
               <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flyable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
@@ -304,14 +303,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543098041876" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-04" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543209559804" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -417,7 +415,8 @@
       <updated>1542789891479</updated>
       <workItem from="1542789894928" duration="24040000" />
       <workItem from="1542894528111" duration="309000" />
-      <workItem from="1542977212283" duration="9038000" />
+      <workItem from="1542977212283" duration="10415000" />
+      <workItem from="1543209034919" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="Cloneable">
       <created>1542803093663</created>
@@ -468,17 +467,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543092388636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Zoo-Animals">
+      <created>1543098082086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543098082086</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33387000" />
+    <option name="totallyTimeSpent" value="35289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="0" width="814" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28381962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13881747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -487,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3253521" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32127956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -552,7 +558,8 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="Instruments" />
     <MESSAGE value="Intstruments updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intstruments updated" />
+    <MESSAGE value="Zoo-Animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zoo-Animals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,12 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="34" column="66" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="66" />
-          <folding>
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,14 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,14 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,60 +746,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Parrot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Koala.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Crocodile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Parrot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Koala.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Crocodile.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/music/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,14 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,11 +782,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Reptile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="289">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
           </folding>
@@ -867,31 +798,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Mammal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="187">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
           <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Animal.java">
+    <entry file="file://$PROJECT_DIR$/src/flyable/Flyable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyable/Helicopter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyable/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyable/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
