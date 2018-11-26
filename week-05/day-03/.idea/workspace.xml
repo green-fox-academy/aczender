@@ -15,10 +15,9 @@
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/04_matReview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyable/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyable/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyable/Helicopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flyable/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/printable/Domino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/printable/Dominoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/printable/Printable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-04/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/modules.xml" afterDir="false" />
@@ -52,66 +51,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="65" />
+          <entry key="java" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="65" />
+          <entry key="JAVA" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4211" />
-          <entry key="txt" value="98" />
+          <entry key="java" value="4256" />
+          <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4211" />
-          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="JAVA" value="4256" />
+          <entry key="PLAIN_TEXT" value="106" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Reptile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ZooApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Mammal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/flyable/Flyable.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/flyable/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -131,23 +95,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flyable/Helicopter.java">
+        <entry file="file://$PROJECT_DIR$/src/printable/Printable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="68">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/printable/Domino.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Animal.java">
+        <entry file="file://$PROJECT_DIR$/src/printable/Dominoes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flyable/Helicopter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-              </folding>
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -175,8 +166,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -200,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/cloneable/Main.java" />
         <option value="$PROJECT_DIR$/src/cloneable/Student.java" />
         <option value="$PROJECT_DIR$/src/cloneable/Person.java" />
-        <option value="$PROJECT_DIR$/src/comparable/Domino.java" />
         <option value="$PROJECT_DIR$/src/comparable/Dominoes.java" />
         <option value="$PROJECT_DIR$/src/comparable/Todo.java" />
         <option value="$PROJECT_DIR$/src/comparable/FleetOfThings.java.java" />
@@ -232,6 +222,12 @@
         <option value="$PROJECT_DIR$/src/flyable/Helicopter.java" />
         <option value="$PROJECT_DIR$/src/flyable/Bird.java" />
         <option value="$PROJECT_DIR$/src/flyable/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/comparable/printable/printable.java" />
+        <option value="$PROJECT_DIR$/src/printable/printable.java" />
+        <option value="$PROJECT_DIR$/src/printable/Printable.java" />
+        <option value="$PROJECT_DIR$/src/comparable/Domino.java" />
+        <option value="$PROJECT_DIR$/src/printable/Domino.java" />
+        <option value="$PROJECT_DIR$/src/printable/Dominoes.java" />
       </list>
     </option>
   </component>
@@ -283,20 +279,13 @@
               <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="flyable" type="462c0819:PsiDirectoryNode" />
+              <item name="comparable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
+              <item name="printable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,13 +297,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543209559804" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543210332063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="printable" />
+      <recent name="flyable" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\felhasználó\Documents\greenfox\aczender\week-05\day-03\src\comparable" />
       <recent name="C:\Users\felhasználó\Documents\greenfox\aczender\week-05\day-03\src\cloneable" />
@@ -332,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZooApp">
+  <component name="RunManager" selected="Application.Dominoes (1)">
     <configuration name="AppMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppMusic" />
       <module name="day-03" />
@@ -340,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparable.Dominoes" />
+    <configuration name="Dominoes (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="printable.Dominoes" />
       <module name="day-03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comparable.*" />
+          <option name="PATTERN" value="printable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,7 +351,7 @@
       <module name="day-03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comparable.*" />
+          <option name="PATTERN" value="printable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,19 +380,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Dominoes" />
       <item itemvalue="Application.FleetOfThings" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.AppMusic" />
       <item itemvalue="Application.ZooApp" />
+      <item itemvalue="Application.Dominoes (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dominoes (1)" />
         <item itemvalue="Application.ZooApp" />
         <item itemvalue="Application.AppMusic" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.FleetOfThings" />
-        <item itemvalue="Application.Dominoes" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +409,7 @@
       <workItem from="1542789894928" duration="24040000" />
       <workItem from="1542894528111" duration="309000" />
       <workItem from="1542977212283" duration="10415000" />
-      <workItem from="1543209034919" duration="525000" />
+      <workItem from="1543209034919" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="Cloneable">
       <created>1542803093663</created>
@@ -474,17 +467,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543098082086</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Flyable">
+      <created>1543209632890</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543209632890</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35289000" />
+    <option name="totallyTimeSpent" value="36060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13881747" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13881747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32127956" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32127956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -559,7 +559,8 @@
     <MESSAGE value="Instruments" />
     <MESSAGE value="Intstruments updated" />
     <MESSAGE value="Zoo-Animals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zoo-Animals" />
+    <MESSAGE value="Flyable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -671,20 +672,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comparable/Todo.java" />
     <entry file="file://$PROJECT_DIR$/src/comparable/FleetOfThings.java.java" />
-    <entry file="file://$PROJECT_DIR$/src/comparable/Domino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comparable/Dominoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/comparable/Fleet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -848,10 +835,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/printable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/flyable/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/printable/Printable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/Domino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/printable/Dominoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/Dominoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/printable/Domino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
