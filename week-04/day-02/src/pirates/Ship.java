@@ -5,8 +5,12 @@ import java.util.List;
 
 
 public class Ship {
-    List<Pirate> pirates = new ArrayList<>();
+    List<Pirate> pirates;
     Pirate captain;
+
+    public Ship(){
+        this.pirates = new ArrayList<>();
+    }
 
 
     public void fillShip() {
@@ -77,7 +81,7 @@ public class Ship {
 
     @Override
     public String toString() {
-        return "The captain consumed; " + this.captain.drinkCounter + " and " + this.alivePirates() + " alive pirates.";
+        return "The captain consumed; " + this.captain.getDrinkCounter() + " and " + this.alivePirates() + " alive pirates.";
 
     }
 

@@ -1,22 +1,26 @@
 package pirates;
 
 public class Pirate {
-    boolean isDead = false;
+    public boolean isDead;
+    private int drinkCounter;
+    private boolean isPassedOut;
+
+
+    public Pirate(){
+        this.isPassedOut = false;
+        this.isDead = false;
+
+    }
 
     public boolean isDead() {
         return isDead;
     }
 
-    public int getDrinkCounter() {
-        return drinkCounter;
-    }
 
     public boolean isPassedOut() {
         return isPassedOut;
     }
 
-    int drinkCounter;
-    boolean isPassedOut = false;
 
     public void drinkSomeRum(int rum) {
         if (!isDead) {
@@ -56,6 +60,9 @@ public class Pirate {
             System.out.println("the result is " + randomNumber);
         }
 
+    }
+    public int getDrinkCounter() {
+        return drinkCounter;
     }
 
 }
