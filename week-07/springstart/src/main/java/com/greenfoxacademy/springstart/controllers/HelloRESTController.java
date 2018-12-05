@@ -16,8 +16,9 @@ public class HelloRESTController {
 //    }
 
     @RequestMapping("/greeting")
-    public Greeting greeting(@RequestParam String name){
+    public Greeting greeting(){
         //returns an object, Greeting object that is defined below
-        return new Greeting(1, "Hello, " + name);
+        Greeting greeting = new Greeting("Name");
+        return greeting;
     }
 }

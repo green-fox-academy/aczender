@@ -1,11 +1,14 @@
 package com.greenfoxacademy.springstart;
 
+import java.util.concurrent.atomic.AtomicLong;
+
 public class Greeting {
     long id;
     String content;
+    static AtomicLong counter = new AtomicLong(0);
 
-    public Greeting(long id, String content) {
-        this.id = id;
+    public Greeting(String content) {
+        this.id = counter.incrementAndGet();
         this.content = content;
     }
 
