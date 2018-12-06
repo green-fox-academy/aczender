@@ -1,0 +1,29 @@
+<!--Create a simple form with no design featuring two fields-->
+<!--Name (call it name)-->
+<!--Email (call it email)-->
+<!--Both fields should be required via HTML5 form validation-->
+<!--The frontend should send the form via POST method to the server.-->
+<!--Action should be https://newsletter-ws.herokuapp.com/signup-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter</title>
+</head>
+<body>
+<form action="https://newsletter-ws.herokuapp.com/signup" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="email" required>
+    </div>
+    <div class="button">
+        <button type="submit">sign up</button>
+    </div>
+</form>
+</body>
+</html>
