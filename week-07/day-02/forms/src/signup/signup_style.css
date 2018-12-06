@@ -1,0 +1,85 @@
+body {
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+.details {
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    align-items: center;
+    padding: 3%;
+    width: 40%;
+}
+
+input {
+    border: none;
+    border-bottom: 1.5px solid #999999;
+    font-size: 16px;
+    width: 85%;
+    margin:20px 0;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #00b359;
+}
+
+.buttonSign {
+    background-color: #00b359;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    color: ghostwhite;
+    border-radius: 2px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.orSign {
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    border-radius: 60%;
+    width: 70%;
+    margin-right: auto;
+
+}
+
+.or {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button {
+    width: 98%;
+    margin: 15px 0;
+    font-size: 16px;
+    border: none;
+    color: ghostwhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: auto;
+}
+
+.facebookLog {
+    background-color: #3b5998;
+    color: ghostwhite;
+    margin-top: 50px;
+}
+
+.twitterLog {
+    background-color: #1da1f2;
+    color: ghostwhite;
+}
+
+.googleLog {
+    background-color: #ea4335;
+    color: ghostwhite;
+}
