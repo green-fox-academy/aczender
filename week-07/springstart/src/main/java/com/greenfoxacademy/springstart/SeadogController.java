@@ -8,16 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class SeadogController {
 
     @RequestMapping("/seadog")
-    public String hello(@RequestParam String p){
+    public String hello(@RequestParam String p) {
         System.out.println(p);                  //it will return an error. if we add ?p=123 to the url - it will return hello Seadog!
         return "hello Seadog!";
     }
 
     @RequestMapping("/pet")
-        public Pet pet() {
-            return new Pet("p");
-        }
-
+    public Pet pet() {
+        return new Pet("p");
+    }
 
 
 }

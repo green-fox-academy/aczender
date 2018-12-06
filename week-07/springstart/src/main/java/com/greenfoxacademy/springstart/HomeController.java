@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @RequestMapping("/")   //we can add (value="/hello") as well. but the first is the default.
-    public String home(){
+    public String home() {
         return "hello";
     }
 }

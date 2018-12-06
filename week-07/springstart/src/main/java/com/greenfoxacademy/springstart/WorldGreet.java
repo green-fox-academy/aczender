@@ -1,12 +1,10 @@
 package com.greenfoxacademy.springstart;
 
-
 public class WorldGreet {
     String[] hellos;
     int random;
 
     public WorldGreet() {
-
     }
 
     public String randomGreeting() {
@@ -15,9 +13,7 @@ public class WorldGreet {
         return hellos[random];
     }
 
-
     public int randomNumber() {
         return (int) (Math.random() * 150 + 1);
     }
-
 }
