@@ -3,6 +3,7 @@ package com.greenfoxacademy.shop;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -74,6 +75,16 @@ public class HomePageController {
                 .get();
         model.addAttribute("expensiveName", mostExpensive.getName());
         return "mostExpensive";
+    }
+
+    @RequestMapping("/search")
+    public String searchElements(Model model, @RequestParam String s){
+        List<ShopItem> searchField = shopItems
+                .stream()
+                .filter(p -> p.getName().toLowerCase().contains(s.toLowerCase()) || p.getDescription().toLowerCase().contains(s.toLowerCase()))
+                .collect(Collectors.toList());
+        model.addAttribute("items", searchField);
+        return "webshop";
     }
 
 
