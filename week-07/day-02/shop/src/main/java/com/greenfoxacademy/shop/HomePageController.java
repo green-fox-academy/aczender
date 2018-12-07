@@ -4,8 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Controller
@@ -39,13 +38,42 @@ public class HomePageController {
 
     @RequestMapping("/cheapest")
     public String price(Model model) {
+        List<ShopItem> cheapest = shopItems
+                .stream()
+                .sorted(Comparator.comparing(ShopItem::getPrice))
+                .collect(Collectors.toList());
+        model.addAttribute("items", cheapest);
         return "webshop";
     }
 
     @RequestMapping("/nike")
     public String nike(Model model) {
-        model.addAttribute("items", shopItems);
+        List<ShopItem> containsNike = shopItems
+                .stream()
+                .filter(p -> p.getName().toLowerCase().contains("nike") || p.getDescription().toLowerCase().contains("nike"))
+                .collect(Collectors.toList());
+        model.addAttribute("items", containsNike);
         return "webshop";
+    }
+
+    @RequestMapping("/stock")
+    public String stock(Model model) {
+        Double averageStock = shopItems
+                .stream()
+                .collect(Collectors.averagingInt(p -> p.getStock()));
+        model.addAttribute("average", averageStock);
+        return "averageCounter";
+    }
+
+    @RequestMapping("/expensive")
+    public String expensive(Model model) {
+        ShopItem mostExpensive = shopItems
+                .stream()
+                .filter(p -> p.getStock() > 0)
+                .max(Comparator.comparing(ShopItem::getPrice))
+                .get();
+        model.addAttribute("expensiveName", mostExpensive.getName());
+        return "mostExpensive";
     }
 
 

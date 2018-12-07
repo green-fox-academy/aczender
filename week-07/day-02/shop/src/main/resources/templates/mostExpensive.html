@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Table</title>
+    <title>Average</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -18,22 +18,8 @@
     <a href="/expensive"><button type="button" class="button5">MOST EXPENSIVE AVAILABLE</button></a>
 </div>
 
-
-<table>
-    <thead>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Price</th>
-    <th>Quantity of stock</th>
-    </thead>
-    <tbody>
-    <tr th:each="item : ${items}">
-        <td th:text="${item.getName()}"></td>
-        <td th:text="${item.getDescription()}"></td>
-        <td th:text="${item.getPrice()}"></td>
-        <td th:text="${item.getStock()}"></td>
-    </tr>
-    </tbody>
-</table>
+<div>
+    <h3 th:text="${expensiveName}"></h3>
+</div>
 </body>
 </html>
