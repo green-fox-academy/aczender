@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
-    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css"/>
 </head>
-<body>
 
-<div>
-    <a href="/webshop"><h1 class="shopname">My Shop</h1></a>
-</div>
-<div class="navbar">
-    <a href="/available"><button type="button" class="button1">ONLY AVAILABLE</button></a>
-    <a href="/cheapest"><button type="button" class="button2">CHEAPEST FIRST</button></a>
-    <a href="/nike"><button type="button" class="button3">CONTAINS NIKE</button></a>
-    <a href="/stock"><button type="button" class="button4">AVERAGE STOCK</button></a>
-    <a href="/expensive"><button type="button" class="button5">MOST EXPENSIVE AVAILABLE</button></a>
-</div>
-
-<div class="searching">
+<a href="/webshop"><h1 class="shopname">My Shop</h1></a>
+<header>
+    <div class="navbar">
+        <a href="/available">
+            <button type="button" class="button1">ONLY AVAILABLE</button>
+        </a>
+        <a href="/cheapest">
+            <button type="button" class="button2">CHEAPEST FIRST</button>
+        </a>
+        <a href="/nike">
+            <button type="button" class="button3">CONTAINS NIKE</button>
+        </a>
+        <a href="/stock">
+            <button type="button" class="button4">AVERAGE STOCK</button>
+        </a>
+        <a href="/expensive">
+            <button type="button" class="button5">MOST EXPENSIVE AVAILABLE</button>
+        </a>
+    </div>
 
     <form action="/search" method="post">
-        <div>
+        <div class="search">
+            <p>Search for:</p>
             <input type="text" name="s" placeholder="...something like nike" required>
-        </div>
-        <div>
             <button class="buttonSign" type="submit">Search</button>
         </div>
     </form>
-</div>
 
+</header>
+<br>
+<body>
 <table>
     <thead>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Price</th>
-    <th>Quantity of stock</th>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Quantity of stock</th>
+    </tr>
     </thead>
     <tbody>
     <tr th:each="item : ${items}">
         <td th:text="${item.getName()}"></td>
         <td th:text="${item.getDescription()}"></td>
-        <td th:text="${item.getPrice()}"></td>
+        <td th:text="'$ ' + ${item.getPrice()}"></td>
         <td th:text="${item.getStock()}"></td>
     </tr>
     </tbody>
