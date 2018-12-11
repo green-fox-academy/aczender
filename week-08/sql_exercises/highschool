@@ -1,0 +1,24 @@
+-- 1) Find the names of all students who are friends with someone named Gabriel
+SELECT h1.name
+FROM highschooler h1
+INNER JOIN friend
+ON h1.id = friend.id1
+INNER JOIN highschooler h2
+ON friend.id2 = h2.id
+WHERE h2.name = "Gabriel"
+ORDER BY h1.name ASC;
+
+-- 2) For every student who likes someone 2 or more grades younger than themselves, return that student's name and grade, and the name and grade of the student they like
+SELECT h1.name, h1.grade, h2.name, h2.grade
+FROM highschooler h1
+INNER JOIN likes
+ON h1.id = likes.id1
+INNER JOIN highschooler h2
+ON likes.id2 = h2.id
+WHERE h1.grade - 2 = h2.grade;
+
+-- 3) For every pair of students who both like each other, return the name and grade of both students. Include each pair only once, with the two names in alphabetical order.
+SELECT H1.name, H1.grade, H2.name, H2.grade
+FROM Highschooler H1, Highschooler H2, Likes L1, Likes L2
+WHERE (H1.ID = L1.ID1 AND H2.ID = L1.ID2) AND (H2.ID = L2.ID1 AND H1.ID = L2.ID2) AND H1.name < H2.name
+ORDER BY H1.name, H2.name;
