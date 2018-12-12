@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    font-family: "Calibri";
+    font-size: 26px;
+    margin-left: 300px;
+}
+
+button {
+    margin: 0;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: auto;
+    height: 30px;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-color: rgb(244, 67, 54);
+
+}
+
+h1 {
+    color: rgb(1, 188, 212);
+    text-decoration: underline;
+
+}
+
+.underline {
+    border-bottom: 1.5px solid currentColor;
+    display: inline-block;
+    line-height: 1.15;
+    width: 880px;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(244, 67, 54);
+}
+
+input[type="search"] {
+    width: 600px;
+    height: 30px;
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid rgb(244, 67, 54);
+}
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 710px;
+    border: 3px solid rgb(244, 67, 54);
+    padding-left: 10px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+    font-size: 22px;
+
+}
+
+.searchTerm:focus {
+    color: rgb(1, 188, 212);
+    font-size: 22px;
+}
+
+.buttonSign {
+    width: 145px;
+    height: 58px;
+    border: 1px solid rgb(244, 67, 54);
+    margin-left: 10px;
+    background: rgb(244, 67, 54);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+th {
+    background-color: rgb(98, 239, 255);
+    height: 80px;
+    width: 145px;
+    color: black;
+    font-size: 24px;
+    padding: auto;
+}
+
+td {
+    height: 40px;
+    width: 214px;
+    color: black;
+    font-size: 24px;
+    padding: auto;
+    text-align: center;
+    border: 1px solid lightcyan;
+}
