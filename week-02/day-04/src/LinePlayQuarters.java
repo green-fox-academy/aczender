@@ -7,24 +7,19 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class LinePlayQuarters {
     public static void mainDraw(Graphics graphics) {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
             draw(0, 0, WIDTH, graphics);
-
         }
-
     }
-
-    public static void draw(int x, int y, int width, Graphics graphics){
+    public static void draw(int x, int y, int width, Graphics graphics) {
         int count = 20;
 
         for (int i = 0; i < 16; i++) {
-            graphics.drawLine(x, i*count + y, i*count + y, width/2+ y);
-
-            graphics.drawLine((x-i*count + width/2), y, width/2+x, (x-i*count + width/2));
-
+            graphics.drawLine(x, i * count + y, i * count + y, width / 2 + y);
+            graphics.drawLine((x - i * count + width / 2), y, width / 2 + x,
+                    (x - i * count + width / 2));
         }
     }
-
 
     // Don't touch the code below
     static int WIDTH = 640;

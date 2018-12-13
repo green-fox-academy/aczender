@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="877b9b95-9b3e-43a2-a869-a05d0f5491bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/Post_it.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Postits.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/vcs.xml" afterDir="false" />
@@ -15,19 +12,23 @@
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/04_matReview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/printable/Domino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/printable/Dominoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/printable/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/BirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-04/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/day-05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-06/carrier_practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-06/carrier_practice/src/Carrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-06/carrier_practice/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/day-01/multiple.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/multiple.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/day-01/src/WriteMultipleLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/src/WriteMultipleLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/day-01/src/WriteSingleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/src/WriteSingleLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -42,34 +43,36 @@
     <session id="506426794">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="72" />
+          <entry key="java" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="72" />
+          <entry key="JAVA" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4256" />
-          <entry key="txt" value="106" />
+          <entry key="java" value="4504" />
+          <entry key="txt" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4256" />
-          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="JAVA" value="4504" />
+          <entry key="PLAIN_TEXT" value="116" />
         </counts>
       </usages-collector>
     </session>
@@ -77,46 +80,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flyable/Flyable.java">
+        <entry file="file://$PROJECT_DIR$/src/printable/Domino.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <folding>
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flyable/Vehicle.java">
+        <entry file="file://$PROJECT_DIR$/src/ZooApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/printable/Printable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Bird.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/printable/Domino.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Mammal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Reptile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,38 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/printable/Dominoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flyable/Helicopter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flyable/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -166,8 +181,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -177,11 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/matReview/Cleanable.java" />
-        <option value="$PROJECT_DIR$/src/matReview/Spoon.java" />
-        <option value="$PROJECT_DIR$/src/matReview/Bed.java" />
-        <option value="$PROJECT_DIR$/src/matReview/Main.java" />
-        <option value="$PROJECT_DIR$/src/matReview/Cleaner.java" />
         <option value="$PROJECT_DIR$/src/matReview/Breakable.java" />
         <option value="$PROJECT_DIR$/src/matReview/SpecialFork.java" />
         <option value="$PROJECT_DIR$/src/matReview/Fork.java" />
@@ -204,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/AppMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Bass_Guitar.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/music/StringedInstrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Instrument.java" />
         <option value="$PROJECT_DIR$/src/Zoo/Animal.java" />
         <option value="$PROJECT_DIR$/src/zoo/Parrot.java" />
@@ -228,6 +239,12 @@
         <option value="$PROJECT_DIR$/src/comparable/Domino.java" />
         <option value="$PROJECT_DIR$/src/printable/Domino.java" />
         <option value="$PROJECT_DIR$/src/printable/Dominoes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zoo/BirdTest.java" />
+        <option value="$PROJECT_DIR$/Test/BirdTest.java" />
+        <option value="$PROJECT_DIR$/Test/main/java/music/ViolinTest.java" />
+        <option value="$PROJECT_DIR$/Test/ViolinTest.java" />
+        <option value="$PROJECT_DIR$/Test/flyable/HelicopterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/music/StringedInstrument.java" />
       </list>
     </option>
   </component>
@@ -237,8 +254,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
@@ -279,13 +296,14 @@
               <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="comparable" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day-03" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="printable" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zoo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,15 +313,39 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543210332063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543500133074" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="flyable" />
+      <recent name="main.java.music" />
+      <recent name="main.java.zoo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\felhasználó\Documents\greenfox\aczender\week-05\day-03\Test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="printable" />
       <recent name="flyable" />
@@ -325,46 +367,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dominoes (1)">
-    <configuration name="AppMusic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppMusic" />
-      <module name="day-03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ViolinTest.sound">
     <configuration name="Dominoes (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="printable.Dominoes" />
       <module name="day-03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="printable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FleetOfThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparable.FleetOfThings" />
-      <module name="day-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="printable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="charsequence.Main" />
-      <module name="day-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="charsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,20 +388,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BirdTest.breed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.zoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.zoo" />
+      <option name="MAIN_CLASS_NAME" value="main.java.zoo.BirdTest" />
+      <option name="METHOD_NAME" value="breed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BirdTest.eat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.zoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="main.java.zoo.BirdTest" />
+      <option name="METHOD_NAME" value="eat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViolinTest.sound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ViolinTest" />
+      <option name="METHOD_NAME" value="sound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FleetOfThings" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.AppMusic" />
       <item itemvalue="Application.ZooApp" />
       <item itemvalue="Application.Dominoes (1)" />
+      <item itemvalue="JUnit.BirdTest.breed" />
+      <item itemvalue="JUnit.BirdTest.eat" />
+      <item itemvalue="JUnit.ViolinTest.sound" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ViolinTest.sound" />
+        <item itemvalue="JUnit.BirdTest.eat" />
+        <item itemvalue="JUnit.BirdTest.breed" />
         <item itemvalue="Application.Dominoes (1)" />
         <item itemvalue="Application.ZooApp" />
-        <item itemvalue="Application.AppMusic" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.FleetOfThings" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +466,13 @@
       <workItem from="1542789894928" duration="24040000" />
       <workItem from="1542894528111" duration="309000" />
       <workItem from="1542977212283" duration="10415000" />
-      <workItem from="1543209034919" duration="1296000" />
+      <workItem from="1543209034919" duration="3574000" />
+      <workItem from="1543308786051" duration="1521000" />
+      <workItem from="1543313324599" duration="2534000" />
+      <workItem from="1543421913158" duration="1850000" />
+      <workItem from="1543485437664" duration="6181000" />
+      <workItem from="1543504588721" duration="1946000" />
+      <workItem from="1543574970904" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="Cloneable">
       <created>1542803093663</created>
@@ -474,17 +537,38 @@
       <option name="project" value="LOCAL" />
       <updated>1543209632890</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Printable">
+      <created>1543210446088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543210446088</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BirdTest_breed - 2018.11.29 at 11h 02m 15s.xml">
+      <configuration name="BirdTest.breed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BirdTest_breed - 2018.11.29 at 11h 02m 27s.xml">
+      <configuration name="BirdTest.breed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BirdTest_eat - 2018.11.29 at 11h 07m 23s.xml">
+      <configuration name="BirdTest.eat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ViolinTest_sound - 2018.11.29 at 13h 20m 55s.xml">
+      <configuration name="ViolinTest.sound" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36060000" />
+    <option name="totallyTimeSpent" value="52983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-7" y="0" width="814" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13881747" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.168435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,7 +577,38 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32127956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32127956" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32816902" />
+      <window_info anchor="bottom" id="TagMyCode" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13881747" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32127956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,36 +627,6 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.51193637" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32957748" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,72 +645,10 @@
     <MESSAGE value="Intstruments updated" />
     <MESSAGE value="Zoo-Animals" />
     <MESSAGE value="Flyable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flyable" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/cloneable/Main.java</url>
-          <line>5</line>
-          <properties class="cloneable.Main" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Printable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Printable" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/matReview/Spoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matReview/Bed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matReview/Cleanable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matReview/Cleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matReview/Breakable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matReview/SpecialFork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matReview/Fork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -649,27 +672,6 @@
     <entry file="file://$PROJECT_DIR$/../day-02/src/greenfoxinheritance/Student.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cloneable/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cloneable/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cloneable/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/comparable/Todo.java" />
     <entry file="file://$PROJECT_DIR$/src/comparable/FleetOfThings.java.java" />
     <entry file="file://$PROJECT_DIR$/src/comparable/Fleet.java">
@@ -683,21 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="22" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/charsequence/Gnirts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,37 +709,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/Bass_Guitar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/Violin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Parrot.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Koala.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Crocodile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppMusic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -760,116 +719,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/StringedInstrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Reptile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZooApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Mammal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flyable/Flyable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flyable/Helicopter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flyable/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/printable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flyable/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/printable/Printable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/printable.java" />
     <entry file="file://$PROJECT_DIR$/src/comparable/Domino.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/printable/Dominoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,19 +734,228 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/printable/Printable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyable/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyable/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/charsequence/Gnirts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cloneable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cloneable/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cloneable/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/ViolinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/flyable/HelicopterTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/flyable/Helicopter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_fulvipes-basic-exam-retake.zip/fulvipes-basic-exam-retake/answers/Zoo/src/Worker.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_fulvipes-basic-exam-retake.zip/fulvipes-basic-exam-retake/answers/WordFrequency/src/WordFrequency.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/Violin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/BirdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_fulvipes-basic-exam-retake.zip/fulvipes-basic-exam-retake/answers/NthElement/src/NthElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/reservations/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flyable/Flyable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/StringedInstrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/Electric_Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/Bass_Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matReview/Cleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matReview/Cleanable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/printable/Domino.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
           <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZooApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/printable/Dominoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Reptile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/Mammal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,9 +963,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>day-03</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

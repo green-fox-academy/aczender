@@ -8,7 +8,7 @@ import java.util.List;
 public class WriteSingleLine {
     public static void main(String[] args) {
         Path filePath = Paths.get("my-file.txt");
-        List<String> content = new ArrayList();
+        List<String> content = new ArrayList<>();
         content.add("Andras");
         try {
             Files.write (filePath, content);

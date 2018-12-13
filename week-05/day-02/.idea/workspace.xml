@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e675ce5-6f6f-44e0-b9aa-791a97d9f5b2" name="Default Changelist" comment="Aircraft">
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-01/src/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/Post_it.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Postits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/Armada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/src/pirates/WarApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-04/day-04/src/String1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/vcs.xml" afterDir="false" />
@@ -19,28 +12,24 @@
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_matReview/04_matReview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greenfoxinheritance/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Sponsor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-03/Test/BirdTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-04/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../day-05/day-05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/PalindromeBuilder.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-06/carrier_practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-06/carrier_practice/src/Carrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-06/carrier_practice/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-02/day-04/src/LinePlayQuarters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/day-04/src/NumberAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-04/src/NumberAdder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/day-01/multiple.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/multiple.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/day-01/src/WriteMultipleLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/src/WriteMultipleLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/day-01/src/WriteSingleLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/src/WriteSingleLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aircraft/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aircraft/Aircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aircraft/Carrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aircraft/Carrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aircraft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aircraft/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,105 +43,62 @@
     <session id="702939113">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="55" />
+          <entry key="java" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7495" />
-          <entry key="txt" value="85" />
+          <entry key="java" value="7560" />
+          <entry key="txt" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7495" />
-          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="JAVA" value="7560" />
+          <entry key="PLAIN_TEXT" value="105" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/F16.java">
+        <entry file="file://$PROJECT_DIR$/src/greenfoxinheritance/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/F35.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/Carrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-              <folding>
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/Aircraft.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding>
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1422#1423#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aircraft/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/greenfoxinheritance/Mentor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,10 +135,10 @@
         <option value="$PROJECT_DIR$/src/garden/Plant.java" />
         <option value="$PROJECT_DIR$/src/garden/Main.java" />
         <option value="$PROJECT_DIR$/src/aircraft/F16.java" />
-        <option value="$PROJECT_DIR$/src/aircraft/Main.java" />
         <option value="$PROJECT_DIR$/src/aircraft/Carrier.java" />
         <option value="$PROJECT_DIR$/src/aircraft/F35.java" />
         <option value="$PROJECT_DIR$/src/aircraft/Aircraft.java" />
+        <option value="$PROJECT_DIR$/src/aircraft/Main.java" />
       </list>
     </option>
   </component>
@@ -202,8 +148,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
@@ -212,13 +158,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="greenfoxinheritance" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543182431349" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week-01/day-04" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543355169724" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -325,7 +296,12 @@
       <workItem from="1542928070312" duration="853000" />
       <workItem from="1542961080367" duration="1163000" />
       <workItem from="1542980016368" duration="11007000" />
-      <workItem from="1543180918716" duration="1309000" />
+      <workItem from="1543180918716" duration="1683000" />
+      <workItem from="1543264523200" duration="1253000" />
+      <workItem from="1543329053402" duration="4987000" />
+      <workItem from="1543420229104" duration="1457000" />
+      <workItem from="1543483318363" duration="43000" />
+      <workItem from="1543484754471" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Person and Student">
       <created>1542709949904</created>
@@ -376,17 +352,31 @@
       <option name="project" value="LOCAL" />
       <updated>1542746921963</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Aircraft_update">
+      <created>1543182462259</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543182462259</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homework_task">
+      <created>1543182527158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543182527158</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48018000" />
+    <option name="totallyTimeSpent" value="57338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="0" width="814" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2122016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22493573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +394,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32816902" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32816902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -423,6 +413,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="Person and Student" />
     <MESSAGE value="Mentor" />
     <MESSAGE value="Student" />
@@ -430,7 +421,9 @@
     <MESSAGE value="Green Fox Organization done" />
     <MESSAGE value="Garden" />
     <MESSAGE value="Aircraft" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aircraft" />
+    <MESSAGE value="Aircraft_update" />
+    <MESSAGE value="homework_task" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_task" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/homework/Mentor.java">
@@ -489,20 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/greenfoxinheritance/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/greenfoxinheritance/Mentor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/garden/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -552,39 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aircraft/Carrier.java">
+    <entry file="file://$PROJECT_DIR$/src/aircraft/F16.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aircraft/Aircraft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -595,17 +545,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aircraft/F16.java">
+    <entry file="file://$PROJECT_DIR$/src/aircraft/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="595">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aircraft/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/aircraft/Carrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="280">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aircraft/Aircraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greenfoxinheritance/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greenfoxinheritance/Mentor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

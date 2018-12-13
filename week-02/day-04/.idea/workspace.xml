@@ -2,13 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3ba8a17-bdd4-46fa-a0ed-87bbea7716b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week-01/day-05/src/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week-01/day-05/src/PalindromeSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/PalindromeBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-01/day-05/src/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-01/day-05/src/Unique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/Post_it.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-02/Post_it/src/Postits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/day-05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/day-05/src/Triangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/04_matReview/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/04_matReview/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/04_matReview/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/04_matReview/04_matReview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/day-04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/day-05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/day-05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/day-05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/day-05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-05/day-05/day-05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinePlayQuarters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinePlayQuarters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/day-01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-05/day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-05/day-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-05/day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-05/day-03/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +46,13 @@
     <session id="1899422661">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,25 +69,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4208" />
-          <entry key="txt" value="57" />
+          <entry key="java" value="4210" />
+          <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4208" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="JAVA" value="4210" />
+          <entry key="PLAIN_TEXT" value="66" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Triangles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -101,8 +121,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
@@ -111,33 +131,14 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="day-04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-04" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541891454027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541891466166" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../GitHub/wanderer-java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -226,7 +227,9 @@
       <workItem from="1541679506287" duration="10952000" />
       <workItem from="1541692961896" duration="24000" />
       <workItem from="1541693644256" duration="23004000" />
-      <workItem from="1541869992089" duration="9505000" />
+      <workItem from="1541869992089" duration="9611000" />
+      <workItem from="1541927534743" duration="19000" />
+      <workItem from="1543228470195" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="LinePlay">
       <created>1541750748449</created>
@@ -256,14 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541885703476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Triangles">
+      <created>1541891483679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541891483679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44548000" />
+    <option name="totallyTimeSpent" value="45401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-7" y="0" width="814" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.121465296" />
@@ -275,7 +285,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.36995828" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.36995828" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -294,7 +304,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info active="true" anchor="right" id="Run" order="10" sideWeight="0.4993046" visible="true" weight="0.6973008" />
+      <window_info anchor="right" id="Run" order="10" sideWeight="0.4993046" weight="0.6973008" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25385603" />
@@ -338,28 +348,14 @@
     <MESSAGE value="LinePlay" />
     <MESSAGE value="LinePlayQuarters start" />
     <MESSAGE value="Triangle_to the left side" />
-    <option name="LAST_COMMIT_MESSAGE" value="Triangle_to the left side" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Triangles.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Triangles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Triangles" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/EnvelopeStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,9 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,16 +398,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Triangles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
