@@ -29,20 +29,30 @@ public class UsefulController {
     }
 
     @GetMapping("/useful/email")
-    public String emailRequest(){
+    public String emailRequest() {
         return "email";
     }
 
 
     @PostMapping("/useful/email")
-    public String emailValidation(@RequestParam(name="email") String email, Model model){
+    public String emailValidation(@RequestParam(name = "email") String email, Model model) {
         if (utilityService.validateEmail(email)) {
             model.addAttribute("mail", email + "is a valid email address");
         } else {
             model.addAttribute("mail", email + "is not a valid email address");
         }
-        model.addAttribute("isValid",utilityService.validateEmail(email));
+        model.addAttribute("isValid", utilityService.validateEmail(email));
         return "email";
     }
 
+    @GetMapping("/useful/caesar")
+    public String caesarRequest() {
+        return "caesar";
+    }
+
+    @PostMapping("/useful/caesar")
+    public String caesarTask(Model model, @RequestParam(name = "text") String text, @RequestParam(name = "num") Integer number) {
+        model.addAttribute("caesar", utilityService.caesar(text, number));
+        return "caesar";
+    }
 }
