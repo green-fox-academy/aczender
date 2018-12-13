@@ -5,6 +5,7 @@ import com.greenfoxacademy.hellobean.service.Printer;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class GreenColor implements MyColor {
+
     @Autowired
     Printer printer;
 

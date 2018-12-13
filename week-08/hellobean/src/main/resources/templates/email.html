@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Exercise #</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<form th:action="@{/useful/email}" method="post">
+    <label for="email">Add your e-mail</label>
+    <input type="text" name="email" id="email" required>
+</form>
+<h1 th:text="${mail}" th:style="${isValid} ? 'color:green' : 'color:red'"></h1>
+</body>
+</html>
