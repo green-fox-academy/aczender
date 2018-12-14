@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en"
       xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" th:href="@{/style.css}"/>
     <title>Homepage</title>
 </head>
 <body>
+
 <div class="container">
     <table>
         <thead>
         <tr>
+            <th>Index of elements</th>
             <th>Owner</th>
             <th>Balance</th>
             <th>Animal type</th>
-            <th>index of elements</th>
+            <th>Behavior</th>
+            <th>King status</th>
+
         </tr>
         </thead>
         <tr th:each="account : ${accounts}">
+            <td th:text="${accountStat.count}"></td>
             <td th:text="${account.name}"></td>
             <td th:text="|${#numbers.formatDecimal(account.balance,0,2,'POINT')} EUR|"></td>
             <td th:text="${account.animalType}"></td>
-            <td th:text="${accountStat.count}"></td>
-            <td th:if="${account.king}">KING</td>
             <td th:if="${account.balance} > 500">Good boy</td>
-            <td th:if="${account.balance} < 500">Bad boy...</td>
+            <td th:if="${account.balance} < 500">Bad boy</td>
+            <td th:if="${account.king}">KING</td>
             <!--<td th:switch ="${account.balance} > 500">-->
             <!--<span th:case="true">Good boy</span>-->
             <!--<span th:case="false">Bad boy</span>-->

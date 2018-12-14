@@ -42,13 +42,11 @@ public class HomePageController {
             } else if (bankAccount.getName().toLowerCase().equals(buttonName.toLowerCase())) {
                 bankAccount.setBalance(bankAccount.getBalance() + 100);
             }
-
         }
         return "redirect:/show";
     }
 
-
-    @GetMapping(path ="/accounts/add")
+    @GetMapping(path = "/accounts/add")
     public String addAccountForm(Model model, @ModelAttribute(name = "account") BankAccount bankAccount) {
         model.addAttribute("account", bankAccount);
         return "addaccounts";
@@ -59,6 +57,4 @@ public class HomePageController {
         bankAccounts.add(bankAccount);
         return "redirect:/show";
     }
-
-
 }

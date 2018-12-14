@@ -13,7 +13,6 @@ public class BankAccount {
         this.king = king;
     }
 
-
     public String getName() {
         return name;
     }
@@ -33,6 +32,7 @@ public class BankAccount {
     public void setKing(Boolean itAKing) {
         king = itAKing;
     }
+
     public void setBalance(double balance) {
         this.balance = balance;
     }

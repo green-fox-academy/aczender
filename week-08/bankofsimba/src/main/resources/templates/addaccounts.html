@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>New account</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
     <meta charset="utf-8"/>
 </head>
 <body>
@@ -9,19 +10,17 @@
 <div>
     <form action="#" th:action="@{/accounts/add}" th:object="${account}" method="post">
 
-
-
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" th:field="*{name}" required>
+        <input type="text" name="name" id="name" th:field="*{name}" required><br>
 
         <label for="balance">Balance</label>
-        <input type="number" name="balance" id="balance" th:field="*{balance}" required>
+        <input type="number" name="balance" id="balance" th:field="*{balance}" required><br>
 
         <label for="type">Animal type</label>
-        <input type="text" name="type" id="type" th:field="*{animalType}" required>
+        <input type="text" name="type" id="type" th:field="*{animalType}" required><br>
 
         <label for="king">Is it a King?</label>
-        <input type="checkbox" name="king" id="king" th:field="*{king}" th:value="true">
+        <input type="checkbox" name="king" id="king" th:field="*{king}" th:value="true"><br>
 
         <button type="submit">Save</button>
     </form>
