@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>StudentList</title>
+    <title>Check Result</title>
     <link rel="stylesheet" th:href="@{/style.css}"/>
     <meta charset="utf-8"/>
 </head>
 <body>
-<header th:text="|Number of students: ${count}|"></header>
-<ul th:each="student : ${students}">
-    <li th:text="${student}"></li>
-</ul>
+<a href="/gfa/checkresult"></a>
+<h1 th:if="${student}" th:text="${contains} ? 'in the list' : 'not in the list'"></h1>
 </body>
 </html>

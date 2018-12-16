@@ -26,6 +26,7 @@ public class HomePageController {
     @RequestMapping("/gfa/list")
     public String studentList(Model model) {
         model.addAttribute("students", studentService.findAll());
+        model.addAttribute("count", studentService.count());
         return "studentlist";
     }
 
@@ -38,5 +39,17 @@ public class HomePageController {
     public String addStudent(@ModelAttribute(name = "student") String student) {
         studentService.save(student);
         return "redirect:/gfa/list";
+    }
+
+    @GetMapping("/gfa/check")
+    public String checkStudent(Model model, @ModelAttribute(name = "student") String student){
+        model.addAttribute("contains", studentService.check(student));
+        return "formtocheck";
+    }
+
+    @GetMapping("/gfa/checkresult")
+    public String checkResult(Model model, @ModelAttribute(name = "student") String student) {
+        model.addAttribute("contains", student);
+        return "checkresult";
     }
 }
