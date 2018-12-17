@@ -6,10 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
-
-import javax.persistence.Id;
-import java.util.List;
 
 @Controller
 @RequestMapping("/todo")        //Create a new controller called TodoController which maps to
@@ -28,7 +24,7 @@ public class TodoController {
         if (isActive == null) {
             model.addAttribute("todos", repository.findAll());
         } else if (isActive) {
-            model.addAttribute("todos", repository.findByDone(!isActive));
+            model.addAttribute("todos", repository.findByDone(! isActive));
         }
         return "todolist";
     }
@@ -47,9 +43,22 @@ public class TodoController {
     }
 
     @GetMapping(value = "/{id}/delete")
-    public String delete(@PathVariable Long id){
+    public String delete(@PathVariable Long id) {
         repository.deleteById(id);
         return "redirect:/todo/list";
+    }
+
+    @GetMapping("/{id}/edit")
+    public String editForm(@PathVariable Long id, Model model) {
+        model.addAttribute("toedit", repository.findById(id));
+        return "edittodos";
+
+    }
+
+    @PostMapping("/edit")
+    public String saveUpdate(@ModelAttribute(name = "toedit") Todo todo) {
+        repository.save(todo);
+        return "redirect:list";
     }
 
 

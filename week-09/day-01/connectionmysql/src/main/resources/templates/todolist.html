@@ -15,6 +15,7 @@
         <th>DONE</th>
         <th>URGENT</th>
         <th>DELETE</th>
+        <th>EDIT</th>
     </tr>
     </thead>
     <tr th:each="todo: ${todos}">
@@ -24,6 +25,9 @@
         <td th:text="${todo.urgent}"></td>
         <td>
             <a th:href="@{{id}/delete(id=${todo.id})}" class="delete" th:attr="name=${todo.id}">delete</a>
+        </td>
+        <td>
+            <a th:href="@{{id}/edit(id=${todo.id})}" class="edit" th:attr="name=${todo.id}">edit</a>
         </td>
     </tr>
 </table>

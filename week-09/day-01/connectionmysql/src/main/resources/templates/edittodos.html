@@ -8,10 +8,10 @@
 <body>
 
 <div>
-    <form action="#" th:action="@{add}" th:object="${todo}" method="post">
+    <form action="#" th:action="@{/todo/edit}" th:object="${toedit}" method="post">
 
-        <label>Title</label>
-        <input type="text" th:field="*{title}" required><br>
+        <label th:text="title">Title</label>
+        <input type="text" name="title" id="title" th:field="*{title}" required><br>
 
         <button type="submit">Save</button>
     </form>
