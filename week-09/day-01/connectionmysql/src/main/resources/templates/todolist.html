@@ -14,6 +14,7 @@
         <th>ACTION</th>
         <th>DONE</th>
         <th>URGENT</th>
+        <th>DELETE</th>
     </tr>
     </thead>
     <tr th:each="todo: ${todos}">
@@ -21,6 +22,9 @@
         <td th:text="${todo.title}"></td>
         <td th:text="${todo.done}"></td>
         <td th:text="${todo.urgent}"></td>
+        <td>
+            <a th:href="@{{id}/delete(id=${todo.id})}" class="delete" th:attr="name=${todo.id}">delete</a>
+        </td>
     </tr>
 </table>
 </ul>

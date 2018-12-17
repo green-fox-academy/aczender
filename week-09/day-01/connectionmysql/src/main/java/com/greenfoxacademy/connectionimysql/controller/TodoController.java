@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
+import javax.persistence.Id;
 import java.util.List;
 
 @Controller
@@ -42,6 +44,12 @@ public class TodoController {
     public String addTodo(@ModelAttribute(name = "todo") Todo todo) {
         repository.save(todo);
         return "redirect:list";
+    }
+
+    @GetMapping(value = "/{id}/delete")
+    public String delete(@PathVariable Long id){
+        repository.deleteById(id);
+        return "redirect:/todo/list";
     }
 
 
