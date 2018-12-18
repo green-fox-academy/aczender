@@ -24,7 +24,7 @@
         <td th:text="${todo.done}"></td>
         <td th:text="${todo.urgent}"></td>
         <td>
-            <a th:href="@{{id}/delete(id=${todo.id})}" class="delete" th:attr="name=${todo.id}">delete</a>
+            <a th:href="@{{id}/delete(id=${todo.id})}">delete</a>
         </td>
         <td>
             <a th:href="@{{id}/edit(id=${todo.id})}" class="edit" th:attr="name=${todo.id}">edit</a>
