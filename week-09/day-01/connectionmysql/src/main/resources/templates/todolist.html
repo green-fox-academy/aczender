@@ -9,16 +9,20 @@
 <div class="container text-center">
     <h2><strong>TODOS FOR TODAY</strong></h2>
     <a class="btn btn-warning" th:href="@{add}">Add new todo</a>
+
 </div>
 <div class="container">
-
+    <form action="#" th:action="@{list}" th:object="${todos}" method="get" class="form-inline mr-auto">
+        <input id="search" class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search"><br>
+        <button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>
+    </form>
 
     <div class="title">
         <table class="table table-hover">
             <thead>
             <tr>
                 <th scope="col">ID</th>
-                <th scope="col">ACTION</th>
+                <th scope="col">TITLE</th>
                 <th scope="col">DONE</th>
                 <th scope="col">URGENT</th>
                 <th scope="col">DELETE</th>

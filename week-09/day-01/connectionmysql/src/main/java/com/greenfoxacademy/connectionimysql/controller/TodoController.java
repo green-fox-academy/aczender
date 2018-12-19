@@ -20,8 +20,10 @@ public class TodoController {
     }
 
     @GetMapping({"/", "/list"})
-    public String list(Model model, @RequestParam(value = "isActive", required = false) Boolean isActive) {
-        if (isActive == null) {
+    public String list(Model model, @RequestParam(value = "isActive", required = false) Boolean isActive, @RequestParam(value = "search", required = false) String s) {
+        if (s != null) {
+            model.addAttribute("todos", repository.findAllByTitle(s));
+        } else if (isActive == null) {
             model.addAttribute("todos", repository.findAll());
         } else if (isActive) {
             model.addAttribute("todos", repository.findByDone(! isActive));
@@ -60,7 +62,6 @@ public class TodoController {
         repository.save(todo);
         return "redirect:list";
     }
-
 
 }
 
