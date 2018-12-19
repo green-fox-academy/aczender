@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Assignees</title>
+</head>
+<body>
+<div class="container text-center">
+    <h2><strong>ASSIGNEE</strong></h2>
+    <a class="btn btn-warning" th:href="@{addassignee}">Add new todo</a>
+
+</div>
+<div class="container">
+    <!--<form action="#" th:action="@{assigneelist}" th:object="${assignees}" method="get" class="form-inline mr-auto">-->
+    <!--<input id="search" class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search"><br>-->
+    <!--<button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>-->
+    <!--</form>-->
+
+    <div class="title">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">NAME</th>
+                <th scope="col">EMAIL</th>
+            </tr>
+            </thead>
+            <tr scope="row" th:each="assignee: ${assignees}">
+                <th scope="row" th:text="${assignee.id}"></th>
+                <td th:text="${assignee.name}"></td>
+                <td th:text="${assignee.email}"></td>
+                <td>
+                    <a class="btn btn-danger" th:href="@{{id}/delete(id=${assignee.id})}">delete</a>
+                </td>
+                <td>
+                    <a class="btn btn-primary" th:href="@{{id}/edit(id=${assignee.id})}" th:attr="name=${assignee.id}">edit</a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+<script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+</body>
+</html>
