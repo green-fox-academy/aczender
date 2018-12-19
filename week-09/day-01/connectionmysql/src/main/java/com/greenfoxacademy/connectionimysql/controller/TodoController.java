@@ -1,6 +1,6 @@
 package com.greenfoxacademy.connectionimysql.controller;
 
-import com.greenfoxacademy.connectionimysql.Todo;
+import com.greenfoxacademy.connectionimysql.model.Todo;
 import com.greenfoxacademy.connectionimysql.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -53,6 +53,7 @@ public class TodoController {
     @GetMapping("/{id}/edit")
     public String editForm(@PathVariable Long id, Model model) {
         model.addAttribute("toedit", repository.findById(id).get());
+//        model.addAttribute("toedit", assigneer)
         return "edittodos";
 
     }

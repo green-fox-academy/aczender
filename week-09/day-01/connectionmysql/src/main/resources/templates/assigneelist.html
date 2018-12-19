@@ -8,7 +8,7 @@
 <body>
 <div class="container text-center">
     <h2><strong>ASSIGNEE</strong></h2>
-    <a class="btn btn-warning" th:href="@{addassignee}">Add new todo</a>
+    <a class="btn btn-warning" th:href="@{addassignee}">Add new assignee</a>
 
 </div>
 <div class="container">
@@ -31,10 +31,10 @@
                 <td th:text="${assignee.name}"></td>
                 <td th:text="${assignee.email}"></td>
                 <td>
-                    <a class="btn btn-danger" th:href="@{{id}/delete(id=${assignee.id})}">delete</a>
+                    <a class="btn btn-danger" th:href="@{{id}/remove(id=${assignee.id})}">delete</a>
                 </td>
                 <td>
-                    <a class="btn btn-primary" th:href="@{{id}/edit(id=${assignee.id})}" th:attr="name=${assignee.id}">edit</a>
+                    <a class="btn btn-primary" th:href="@{{id}/aedit(id=${assignee.id})}" th:attr="name=${assignee.id}">edit</a>
                 </td>
             </tr>
         </table>

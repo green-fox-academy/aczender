@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>New account</title>
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+<div>
+    <form action="#" th:action="@{addassignee}" th:object="${assign}" method="post">
+
+        <label>Name</label>
+        <input type="text" th:field="*{name}" required><br>
+        <label>email</label>
+        <input type="text" th:field="*{email}" required> <br>
+
+        <button type="submit">Save</button>
+    </form>
+</div>
+<script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+</body>
+</html>

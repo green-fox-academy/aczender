@@ -1,6 +1,6 @@
 package com.greenfoxacademy.connectionimysql.repository;
 
-import com.greenfoxacademy.connectionimysql.Assignee;
+import com.greenfoxacademy.connectionimysql.model.Assignee;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

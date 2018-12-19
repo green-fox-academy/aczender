@@ -1,6 +1,6 @@
 package com.greenfoxacademy.connectionimysql.repository;
 
-import com.greenfoxacademy.connectionimysql.Todo;
+import com.greenfoxacademy.connectionimysql.model.Todo;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
