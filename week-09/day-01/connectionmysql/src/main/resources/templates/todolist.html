@@ -42,10 +42,10 @@
                     <span th:if="${todo.urgent}" class="glyphicon glyphicon-ok"></span>
                     <span th:unless="${todo.urgent}" class="glyphicon glyphicon-remove"></span>
                 </td>
-                <!--<td>-->
-                <!--<span th:if="${todo.assignee.name} != null" th:text="No assignment"></span>-->
-                <!--<span th:unless="${todo.assignee.name} == null" th:text="${todo.assignee.name}"></span>-->
-                <!--</td>-->
+                <td>
+                <span th:if="${todo.assignee != null}" th:text="${todo.assignee.getName()}"></span>
+                <span th:unless="${todo.assignee != null}" th:text="|No assignee yet|"></span>
+                </td>
                 <td>
                     <a class="btn btn-danger" th:href="@{{id}/delete(id=${todo.id})}">delete</a>
                 </td>
