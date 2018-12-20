@@ -1,9 +1,6 @@
 package com.greenfoxacademy.connectionimysql.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Todo {
@@ -15,6 +12,10 @@ public class Todo {
     private Boolean urgent;
     private String title;
 
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "assignee_id")
+    private Assignee assignee;
+
     public Todo() {
         urgent = false;
         done = false;
@@ -25,6 +26,7 @@ public class Todo {
         this.urgent = false;
         this.title = title;
     }
+
 
     public Boolean getDone() {
         return done;
@@ -56,5 +58,13 @@ public class Todo {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public Assignee getAssignee() {
+        return assignee;
+    }
+
+    public void setAssignee(Assignee assignee) {
+        this.assignee = assignee;
     }
 }

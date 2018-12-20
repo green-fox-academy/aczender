@@ -1,11 +1,13 @@
 package com.greenfoxacademy.connectionimysql.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.greenfoxacademy.connectionimysql.repository.AssigneeRepository;
+
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
+@Table(name = "assignee")
 public class Assignee {
 
     @Id
@@ -14,13 +16,18 @@ public class Assignee {
     private String name;
     private String email;
 
+    @OneToMany(cascade = CascadeType.PERSIST, mappedBy = "assignee")
+    private List<Todo> todos;
+
     public Assignee() {
+        todos = new ArrayList<>();
     }
 
     public Assignee(String name, String email) {
         this.name = name;
         this.email = email;
     }
+
 
     public String getName() {
         return name;
@@ -45,4 +52,13 @@ public class Assignee {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public List<Todo> getTodos() {
+        return todos;
+    }
+
+    public void setTodos(List<Todo> todos) {
+        this.todos = todos;
+    }
+
 }

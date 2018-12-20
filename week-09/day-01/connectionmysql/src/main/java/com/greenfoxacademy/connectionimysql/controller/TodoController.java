@@ -1,6 +1,7 @@
 package com.greenfoxacademy.connectionimysql.controller;
 
 import com.greenfoxacademy.connectionimysql.model.Todo;
+import com.greenfoxacademy.connectionimysql.repository.AssigneeRepository;
 import com.greenfoxacademy.connectionimysql.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,11 +13,13 @@ import org.springframework.web.bind.annotation.*;
 public class TodoController {
 
     private TodoRepository repository;
+    private AssigneeRepository assigneeRepository;
 
 
     @Autowired
-    public TodoController(TodoRepository repository) {
+    public TodoController(TodoRepository repository, AssigneeRepository assigneeRepository) {
         this.repository = repository;
+        this.assigneeRepository = assigneeRepository;
     }
 
     @GetMapping({"/", "/list"})
@@ -53,16 +56,20 @@ public class TodoController {
     @GetMapping("/{id}/edit")
     public String editForm(@PathVariable Long id, Model model) {
         model.addAttribute("toedit", repository.findById(id).get());
-//        model.addAttribute("toedit", assigneer)
+        model.addAttribute("editassignee", assigneeRepository.findAll());
         return "edittodos";
 
     }
 
     @PostMapping("/edit")
-    public String saveUpdate(@ModelAttribute(name = "toedit") Todo todo) {
+    public String saveUpdate(@ModelAttribute(name = "toedit") Todo todo, @ModelAttribute(value = "n") String n) {
+        todo.setAssignee(assigneeRepository.findByName("n"));
         repository.save(todo);
         return "redirect:list";
     }
+
+//    public String editing(@ModelAttribute("todo") Todo todo, @ModelAttribute(value = "assig") String assig) {
+//        todo.setAssignee(assigneeRepository.findByName(assig));
 
 }
 

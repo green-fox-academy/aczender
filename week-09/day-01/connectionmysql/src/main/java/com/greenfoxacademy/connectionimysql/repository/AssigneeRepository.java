@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface AssigneeRepository extends CrudRepository<Assignee, Long> {
     List<Assignee> findAllByName(String n);
+
+    Assignee findByName(String n);
 }

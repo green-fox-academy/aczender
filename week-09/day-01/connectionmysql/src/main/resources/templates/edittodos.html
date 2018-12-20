@@ -17,12 +17,14 @@
         <input type="checkbox" name="urgency" id="urgency" th:field="*{urgent}"><br>
         <label th:text="done">Done</label>
         <input type="checkbox" name="done" id="done" th:field="*{done}"><br>
-        <!--<label th:text="assignee">Assignee</label>-->
-        <!--<input type="" name="assignee" id="assignee" th:field="${}"><br>-->
 
 
         <button type="submit">Save</button>
     </form>
+    <div><select name="something">
+        <option th:each="i : ${editassignee}" th:value="${i.name}" th:text="${i.name}"></option>
+    </select></div>
+
     <a th:href="@{/todo/list}">Cancel</a>
 </div>
 <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
