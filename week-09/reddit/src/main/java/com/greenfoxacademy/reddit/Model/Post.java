@@ -13,6 +13,7 @@ public class Post {
     private Long id;
     private String title;
     private String url;
+    private int vote;
 
     public Post() {
     }
@@ -45,5 +46,12 @@ public class Post {
     public void setUrl(String url) {
         this.url = url;
     }
-}
 
+    public int getVote() {
+        return vote;
+    }
+
+    public void setVote(int vote) {
+        this.vote = vote;
+    }
+}

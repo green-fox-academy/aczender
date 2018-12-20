@@ -2,14 +2,10 @@ package com.greenfoxacademy.reddit.controller;
 
 import com.greenfoxacademy.reddit.Model.Post;
 import com.greenfoxacademy.reddit.repository.PostRepository;
-import javafx.geometry.Pos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("")
@@ -22,8 +18,8 @@ public class PostController {
         this.repository = repository;
     }
 
-    @GetMapping({"/","/list"})
-    public String list(Model model){
+    @GetMapping({"/", "/list"})
+    public String list(Model model) {
         model.addAttribute("posts", repository.findAll());
         return "postlist";
     }
@@ -35,12 +31,26 @@ public class PostController {
     }
 
     @PostMapping("/submit")
-    public String submitPost(@ModelAttribute(name = "post")Post post){
+    public String submitPost(@ModelAttribute(name = "post") Post post) {
         repository.save(post);
-        return "redirect:";
+        return "redirect:/";
     }
 
+    @GetMapping("{id}/voteup")
+    public String upvote(@PathVariable Long id) {
+        Post upvoted = repository.findById(id).get();
+        upvoted.setVote(repository.findById(id).get().getVote() + 1);
+        repository.save(upvoted);
+        return "redirect:/";
+    }
 
+    @GetMapping("{id}/downvote")
+    public String downvote(@PathVariable Long id) {
+        Post downvoted = repository.findById(id).get();
+        downvoted.setVote(repository.findById(id).get().getVote() - 1);
+        repository.save(downvoted);
+        return "redirect:/";
+    }
 
 
 }

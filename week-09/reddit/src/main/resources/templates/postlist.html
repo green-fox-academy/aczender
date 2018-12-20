@@ -12,18 +12,20 @@
     <h2><strong>Trending posts</strong></h2>
 </div>
 <div class="container">
-    <form action="#" th:action="@{list}" th:object="${posts}" method="get" class="form-inline mr-auto"></form>
+    <form action="#" th:action="@{/}" th:object="${posts}" method="get" class="form-inline mr-auto"></form>
 
     <div class="title">
         <table class="table">
             <tr th:scope="row" th:each="post: ${posts}">
                 <th scope="row" th:text="${post.id}"></th>
+                <td th:text="*{post.vote}"></td>
+                <td><a th:href="@{{id}/voteup(id=${post.id})}">+</a></td>
+                <td><a th:href="@{{id}/downvote(id=${post.id})}">-</a></td>
                 <td th:text="${post.title}"></td>
             </tr>
 
         </table>
     </div>
-
 
 </div>
 <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
