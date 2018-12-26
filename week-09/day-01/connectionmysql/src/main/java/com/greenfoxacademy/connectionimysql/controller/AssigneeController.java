@@ -1,7 +1,6 @@
 package com.greenfoxacademy.connectionimysql.controller;
 
 import com.greenfoxacademy.connectionimysql.model.Assignee;
-import com.greenfoxacademy.connectionimysql.model.Todo;
 import com.greenfoxacademy.connectionimysql.repository.AssigneeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/assignee")
+@RequestMapping("/alist")
 public class AssigneeController {
 
     private AssigneeRepository assigneeRepository;
@@ -19,7 +18,7 @@ public class AssigneeController {
         this.assigneeRepository = assigneeRepository;
     }
 
-    @GetMapping({"/", "/alist"})
+    @GetMapping({"/"})
     public String assilist(Model model) {
         model.addAttribute("assignees", assigneeRepository.findAll());
         return "assigneelist";
@@ -35,13 +34,13 @@ public class AssigneeController {
     @PostMapping("/addassignee")
     public String addAssignee(@ModelAttribute(name = "assign") Assignee assignee) {
         assigneeRepository.save(assignee);
-        return "redirect:alist";
+        return "redirect:/alist/";
     }
 
     @GetMapping(value = "/{id}/remove")
     public String delete(@PathVariable Long id) {
         assigneeRepository.deleteById(id);
-        return "redirect:/assignee/alist";
+        return "redirect:/alist/";
     }
 
     @GetMapping("/{id}/aedit")
@@ -54,6 +53,6 @@ public class AssigneeController {
     @PostMapping("/aedit")
     public String saveUpdate(@ModelAttribute(name = "toedita") Assignee assignee) {
         assigneeRepository.save(assignee);
-        return "redirect:alist";
+        return "redirect:/alist/";
     }
 }

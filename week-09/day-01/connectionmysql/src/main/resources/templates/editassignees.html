@@ -8,18 +8,18 @@
 <body>
 
 <div>
-    <form action="#" th:action="@{/assignee/aedit}" th:object="${toedita}" method="post">
+    <form action="#" th:action="@{/alist/aedit}" th:object="${toedita}" method="post">
 
         <input hidden type="text" name="id" id="id" th:field="*{id}" required><br>
-        <label th:text="Name"></label>
+        <label th:text="name">Name</label>
         <input type="text" name="name" id="name" th:field="*{name}" required><br>
-        <label th:text="Email"></label>
+        <label th:text="email">Email</label>
         <input type="text" name="email" id="email" th:field="*{email}" required><br>
 
 
         <button type="submit">Save</button>
     </form>
-    <a th:href="@{/assignee/alist}">Cancel</a>
+    <a th:href="@{/alist/}">Cancel</a>
 </div>
 <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
 <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
