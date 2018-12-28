@@ -1,7 +1,5 @@
 package com.greenfoxacademy.connectionimysql.model;
 
-import com.greenfoxacademy.connectionimysql.repository.AssigneeRepository;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,11 +14,11 @@ public class Assignee {
     private String name;
     private String email;
 
-    @OneToMany(cascade = CascadeType.PERSIST, mappedBy = "assignee")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "assignee")
     private List<Todo> todos;
 
     public Assignee() {
-        todos = new ArrayList<>();
+        this.todos = new ArrayList<>();
     }
 
     public Assignee(String name, String email) {

@@ -63,13 +63,10 @@ public class TodoController {
 
     @PostMapping("/edit")
     public String saveUpdate(@ModelAttribute(name = "toedit") Todo todo, @ModelAttribute(value = "n") String n) {
-        todo.setAssignee(assigneeRepository.findByName("n"));
+        todo.setAssignee(assigneeRepository.findByName(n));
         repository.save(todo);
         return "redirect:list";
     }
-
-//    public String editing(@ModelAttribute("todo") Todo todo, @ModelAttribute(value = "assig") String assig) {
-//        todo.setAssignee(assigneeRepository.findByName(assig));
 
 }
 

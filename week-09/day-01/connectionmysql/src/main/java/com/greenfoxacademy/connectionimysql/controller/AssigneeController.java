@@ -1,5 +1,6 @@
 package com.greenfoxacademy.connectionimysql.controller;
 
+import com.greenfoxacademy.connectionimysql.AssigneeService;
 import com.greenfoxacademy.connectionimysql.model.Assignee;
 import com.greenfoxacademy.connectionimysql.repository.AssigneeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,19 +9,26 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/alist")
+@RequestMapping("assignee")
 public class AssigneeController {
+
+    AssigneeService service;
 
     private AssigneeRepository assigneeRepository;
 
     @Autowired
-    public AssigneeController(AssigneeRepository assigneeRepository) {
+    public AssigneeController(AssigneeRepository assigneeRepository, AssigneeService service) {
         this.assigneeRepository = assigneeRepository;
+        this.service = service;
     }
 
-    @GetMapping({"/"})
-    public String assilist(Model model) {
-        model.addAttribute("assignees", assigneeRepository.findAll());
+    @GetMapping({"/","/assigneelist"})
+    public String assilist(Model model, @RequestParam(value = "search", required = false) String s) {
+        if (s != null) {
+            model.addAttribute("assignees", assigneeRepository.findAllByName(s));
+        } else {
+            model.addAttribute("assignees", service.getAll());
+        }
         return "assigneelist";
     }
 
@@ -34,13 +42,13 @@ public class AssigneeController {
     @PostMapping("/addassignee")
     public String addAssignee(@ModelAttribute(name = "assign") Assignee assignee) {
         assigneeRepository.save(assignee);
-        return "redirect:/alist/";
+        return "redirect:assigneelist";
     }
 
     @GetMapping(value = "/{id}/remove")
     public String delete(@PathVariable Long id) {
         assigneeRepository.deleteById(id);
-        return "redirect:/alist/";
+        return "redirect:/assignee/assigneelist";
     }
 
     @GetMapping("/{id}/aedit")
@@ -53,6 +61,13 @@ public class AssigneeController {
     @PostMapping("/aedit")
     public String saveUpdate(@ModelAttribute(name = "toedita") Assignee assignee) {
         assigneeRepository.save(assignee);
-        return "redirect:/alist/";
+        return "redirect:assigneelist";
     }
+
+    @GetMapping("/assignees/{id}")
+    public String singleAssignee(Model model, @PathVariable Long id) {
+        model.addAttribute("singleassignee",service.get(id) );
+        return "assignedtodos";
+    }
+
 }

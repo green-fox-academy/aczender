@@ -9,7 +9,7 @@
 <div class="container text-center">
     <h2><strong>TODOS FOR TODAY</strong></h2>
     <a class="btn btn-warning" th:href="@{add}">Add new todo</a>
-    <a class="btn btn-block" th:href="@{/alist/}">List of Assignees</a>
+    <a class="btn btn-block" th:href="@{/assignee/}">List of Assignees</a>
 
 </div>
 <div class="container">
@@ -31,6 +31,7 @@
                 <th scope="col">EDIT</th>
             </tr>
             </thead>
+
             <tr scope="row" th:each="todo: ${todos}">
                 <th scope="row" th:text="${todo.id}"></th>
                 <td th:text="${todo.title}"></td>
@@ -43,8 +44,8 @@
                     <span th:unless="${todo.urgent}" class="glyphicon glyphicon-remove"></span>
                 </td>
                 <td>
-                <span th:if="${todo.assignee != null}" th:text="${todo.assignee.getName()}"></span>
-                <span th:unless="${todo.assignee != null}" th:text="|No assignee yet|"></span>
+                    <span th:if="${todo.assignee != null}" th:text="${todo.assignee.name}"></span>
+                    <span th:unless="${todo.assignee != null}" th:text="|No assignee yet|"></span>
                 </td>
                 <td>
                     <a class="btn btn-danger" th:href="@{{id}/delete(id=${todo.id})}">delete</a>

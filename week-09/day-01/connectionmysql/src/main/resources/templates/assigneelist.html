@@ -12,10 +12,10 @@
 
 </div>
 <div class="container">
-    <!--<form action="#" th:action="@{assigneelist}" th:object="${assignees}" method="get" class="form-inline mr-auto">-->
-    <!--<input id="search" class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search"><br>-->
-    <!--<button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>-->
-    <!--</form>-->
+    <form action="#" th:action="@{assigneelist}" th:object="${assignees}" method="get" class="form-inline mr-auto">
+    <input id="search" class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search"><br>
+    <button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>
+    </form>
 
     <div class="title">
         <table class="table table-hover">
@@ -28,7 +28,9 @@
             </thead>
             <tr scope="row" th:each="assignee: ${assignees}">
                 <th scope="row" th:text="${assignee.id}"></th>
-                <td th:text="${assignee.name}"></td>
+                <td>
+                    <a th:href="@{assignees/{id} (id=${assignee.id})}"><h4 th:text="*{assignee.name}"></h4> </a>
+                </td>
                 <td th:text="${assignee.email}"></td>
                 <td>
                     <a class="btn btn-danger" th:href="@{{id}/remove(id=${assignee.id})}">delete</a>

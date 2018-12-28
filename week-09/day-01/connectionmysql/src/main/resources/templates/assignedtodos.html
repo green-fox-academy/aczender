@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+    <title th:text="|Assigneed todos ${singleassignee.id}|"></title>
+</head>
+
+<body>
+<a th:href="@{/}">Back</a>
+<h4 th:text="${singleassignee.name}"></h4>
+
+<h2>Todos assigned</h2>
+
+<ul>
+    <li th:each="todo : ${singleassignee.todos}">
+        <span th:text="${todo.title}"></span>
+    </li>
+</ul>
+
+<script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+</body>
+</html>
