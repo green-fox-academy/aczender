@@ -13,8 +13,8 @@
 </div>
 <div class="container">
     <form action="#" th:action="@{assigneelist}" th:object="${assignees}" method="get" class="form-inline mr-auto">
-    <input id="search" class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search"><br>
-    <button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>
+        <input id="search" class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search"><br>
+        <button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>
     </form>
 
     <div class="title">
@@ -29,7 +29,7 @@
             <tr scope="row" th:each="assignee: ${assignees}">
                 <th scope="row" th:text="${assignee.id}"></th>
                 <td>
-                    <a th:href="@{assignees/{id} (id=${assignee.id})}"><h4 th:text="*{assignee.name}"></h4> </a>
+                    <a th:href="@{assignees/{id} (id=${assignee.id})}" th:text="*{assignee.name}"> </a>
                 </td>
                 <td th:text="${assignee.email}"></td>
                 <td>

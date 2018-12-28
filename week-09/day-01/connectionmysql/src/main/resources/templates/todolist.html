@@ -44,7 +44,8 @@
                     <span th:unless="${todo.urgent}" class="glyphicon glyphicon-remove"></span>
                 </td>
                 <td>
-                    <span th:if="${todo.assignee != null}" th:text="${todo.assignee.name}"></span>
+                    <!--<span th:if="${todo.assignee != null}" th:text="${todo.assignee.name}"></span>-->
+                    <a th:if="${todo.assignee != null}" th:href="@{/assignee/assignees/{id} (id=${todo.assignee.id})}" th:text="*{todo.assignee.name}"> </a>
                     <span th:unless="${todo.assignee != null}" th:text="|No assignee yet|"></span>
                 </td>
                 <td>
