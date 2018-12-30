@@ -1,6 +1,9 @@
 package com.greenfoxacademy.connectionimysql.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 public class Todo {
@@ -11,6 +14,12 @@ public class Todo {
     private Boolean done;
     private Boolean urgent;
     private String title;
+    @Temporal(TemporalType.DATE)
+    private Date date;
+
+    @Column(name = "DUE_DATE")
+    @DateTimeFormat(pattern = "yyyy/mm/dd")
+    private Date dueDate;
 
     @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "assignee_id")
@@ -19,12 +28,16 @@ public class Todo {
     public Todo() {
         urgent = false;
         done = false;
+        this.date = new Date();
+        this.dueDate = new Date();
     }
 
     public Todo(Boolean done, Boolean urgent, String title) {
         this.done = false;
         this.urgent = false;
         this.title = title;
+        this.date = new Date();
+        this.dueDate = new Date();
     }
 
 
@@ -66,5 +79,21 @@ public class Todo {
 
     public void setAssignee(Assignee assignee) {
         this.assignee = assignee;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public Date getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(Date dueDate) {
+        this.dueDate = dueDate;
     }
 }

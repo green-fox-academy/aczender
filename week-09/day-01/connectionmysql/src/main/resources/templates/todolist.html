@@ -6,16 +6,26 @@
     <title>Title</title>
 </head>
 <body>
+
 <div class="container text-center">
     <h2><strong>TODOS FOR TODAY</strong></h2>
     <a class="btn btn-warning" th:href="@{add}">Add new todo</a>
     <a class="btn btn-block" th:href="@{/assignee/}">List of Assignees</a>
 
 </div>
+
+<div class="container">
+    <form action="#" th:action="@{search}" th:object="${todos}" method="post">
+        <div class="search">
+            <p>Search for:</p>
+            <input type="text" name="search" placeholder="Search" required>
+            <button class="buttonSign" type="submit">Search</button>
+        </div>
+    </form>
+</div>
+
 <div class="container">
     <form action="#" th:action="@{list}" th:object="${todos}" method="get" class="form-inline mr-auto">
-        <input id="search" class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search"><br>
-        <button class="btn btn-unique btn-rounded btn-sm my-0" type="submit">Search</button>
     </form>
 
     <div class="title">
@@ -27,6 +37,8 @@
                 <th scope="col">DONE</th>
                 <th scope="col">URGENT</th>
                 <th scope="col">ASSIGNEE</th>
+                <th scope="col">CREATION DATE</th>
+                <th scope="col">DUE DATE</th>
                 <th scope="col">DELETE</th>
                 <th scope="col">EDIT</th>
             </tr>
@@ -44,10 +56,13 @@
                     <span th:unless="${todo.urgent}" class="glyphicon glyphicon-remove"></span>
                 </td>
                 <td>
-                    <!--<span th:if="${todo.assignee != null}" th:text="${todo.assignee.name}"></span>-->
                     <a th:if="${todo.assignee != null}" th:href="@{/assignee/assignees/{id} (id=${todo.assignee.id})}" th:text="*{todo.assignee.name}"> </a>
                     <span th:unless="${todo.assignee != null}" th:text="|No assignee yet|"></span>
                 </td>
+                <td th:text="${todo.date}"></td>
+                <td th:text="${todo.dueDate}"></td>
+                </td>
+
                 <td>
                     <a class="btn btn-danger" th:href="@{{id}/delete(id=${todo.id})}">delete</a>
                 </td>

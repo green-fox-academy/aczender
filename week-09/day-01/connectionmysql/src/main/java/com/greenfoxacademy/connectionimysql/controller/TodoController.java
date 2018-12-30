@@ -1,5 +1,6 @@
 package com.greenfoxacademy.connectionimysql.controller;
 
+import com.greenfoxacademy.connectionimysql.TodoService;
 import com.greenfoxacademy.connectionimysql.model.Todo;
 import com.greenfoxacademy.connectionimysql.repository.AssigneeRepository;
 import com.greenfoxacademy.connectionimysql.repository.TodoRepository;
@@ -12,24 +13,25 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/todo")        //Create a new controller called TodoController which maps to
 public class TodoController {
 
-    private TodoRepository repository;
+
+    private TodoRepository todoRepository;
     private AssigneeRepository assigneeRepository;
+    TodoService service;
 
 
     @Autowired
-    public TodoController(TodoRepository repository, AssigneeRepository assigneeRepository) {
-        this.repository = repository;
+    public TodoController(TodoRepository repository, AssigneeRepository assigneeRepository, TodoService service) {
+        this.todoRepository = repository;
         this.assigneeRepository = assigneeRepository;
+        this.service = service;
     }
 
     @GetMapping({"/", "/list"})
-    public String list(Model model, @RequestParam(value = "isActive", required = false) Boolean isActive, @RequestParam(value = "search", required = false) String s) {
-        if (s != null) {
-            model.addAttribute("todos", repository.findAllByTitle(s));
-        } else if (isActive == null) {
-            model.addAttribute("todos", repository.findAll());
+    public String list(Model model, @RequestParam(value = "isActive", required = false) Boolean isActive) {
+        if (isActive == null) {
+            model.addAttribute("todos", todoRepository.findAll());
         } else if (isActive) {
-            model.addAttribute("todos", repository.findByDone(! isActive));
+            model.addAttribute("todos", todoRepository.findByDone(! isActive));
         }
         return "todolist";
     }
@@ -43,19 +45,19 @@ public class TodoController {
 
     @PostMapping("/add")
     public String addTodo(@ModelAttribute(name = "todo") Todo todo) {
-        repository.save(todo);
+        todoRepository.save(todo);
         return "redirect:list";
     }
 
     @GetMapping(value = "/{id}/delete")
     public String delete(@PathVariable Long id) {
-        repository.deleteById(id);
+        todoRepository.deleteById(id);
         return "redirect:/todo/list";
     }
 
     @GetMapping("/{id}/edit")
     public String editForm(@PathVariable Long id, Model model) {
-        model.addAttribute("toedit", repository.findById(id).get());
+        model.addAttribute("toedit", todoRepository.findById(id).get());
         model.addAttribute("editassignee", assigneeRepository.findAll());
         return "edittodos";
 
@@ -64,10 +66,17 @@ public class TodoController {
     @PostMapping("/edit")
     public String saveUpdate(@ModelAttribute(name = "toedit") Todo todo, @ModelAttribute(value = "n") String n) {
         todo.setAssignee(assigneeRepository.findByName(n));
-        repository.save(todo);
+        todoRepository.save(todo);
         return "redirect:list";
     }
 
+    @PostMapping("/search")
+    public String searchElements(Model model, @RequestParam(value = "search", required = false) String d, @RequestParam(value = "search", required = false) String s) {
+        model.addAttribute("todos", todoRepository.findByTitleContaining(d));
+        model.addAttribute("assignees", assigneeRepository.findAllByName(s));
+        return "todolist";
+
+    }
 }
 
 
