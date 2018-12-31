@@ -8,12 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class RedditApplication {
 
+    @Autowired
     PostRepository repository;
 
-    @Autowired
-    public RedditApplication(PostRepository repository){
-        this.repository = repository;
-    }
 
     public static void main(String[] args) {
         SpringApplication.run(RedditApplication.class, args);

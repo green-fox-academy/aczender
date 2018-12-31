@@ -16,12 +16,23 @@
 
     <div class="title">
         <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Votes</th>
+                <th scope="col">Up-vote</th>
+                <th scope="col">Down-vote</th>
+                <th scope="col">Title</th>
+                <th scope="col">Creation date</th>
+            </tr>
+            </thead>
             <tr th:scope="row" th:each="post: ${posts}">
                 <th scope="row" th:text="${post.id}"></th>
                 <td th:text="*{post.vote}"></td>
                 <td><a th:href="@{{id}/voteup(id=${post.id})}">+</a></td>
                 <td><a th:href="@{{id}/downvote(id=${post.id})}">-</a></td>
                 <td th:text="${post.title}"></td>
+                <td th:text="${post.date}"></td>
             </tr>
 
         </table>

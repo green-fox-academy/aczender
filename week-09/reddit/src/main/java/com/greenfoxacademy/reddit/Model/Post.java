@@ -1,9 +1,7 @@
 package com.greenfoxacademy.reddit.Model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 public class Post {
@@ -14,13 +12,17 @@ public class Post {
     private String title;
     private String url;
     private int vote;
+    @Temporal(TemporalType.DATE)
+    private Date date;
 
     public Post() {
+        this.date = new Date();
     }
 
     public Post(String title, String url) {
         this.title = title;
         this.url = url;
+        this.date = new Date();
     }
 
     public Long getId() {
@@ -53,5 +55,13 @@ public class Post {
 
     public void setVote(int vote) {
         this.vote = vote;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 }

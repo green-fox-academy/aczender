@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("")
 public class PostController {
 
-    private PostRepository repository;
+    @Autowired
+    PostRepository repository;
 
     @Autowired
     public PostController(PostRepository repository) {
