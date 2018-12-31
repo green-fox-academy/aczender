@@ -10,4 +10,7 @@ public interface PostRepository extends CrudRepository<Post, Long> {
 
     @Query(value = "SELECT * FROM Post ORDER BY vote DESC LIMIT 3", nativeQuery = true)
     List<Post> findAll();
+
+    @Query(value = "SELECT * FROM Post WHERE vote=0 ORDER BY vote", nativeQuery = true)
+    List<Post> findAllByTitle();
 }

@@ -25,6 +25,13 @@ public class PostController {
         return "postlist";
     }
 
+    @GetMapping("/remaining")
+    public String remainder (Model model) {
+        model.addAttribute("posts", repository.findAllByTitle());
+        return "postlist";
+    }
+
+
     @GetMapping("/submit")
     public String addForm(Model model) {
         model.addAttribute("post", new Post());
