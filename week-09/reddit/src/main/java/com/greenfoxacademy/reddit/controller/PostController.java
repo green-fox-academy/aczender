@@ -1,28 +1,44 @@
 package com.greenfoxacademy.reddit.controller;
 
 import com.greenfoxacademy.reddit.Model.Post;
+import com.greenfoxacademy.reddit.Model.User;
 import com.greenfoxacademy.reddit.repository.PostRepository;
+import com.greenfoxacademy.reddit.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Controller
 @RequestMapping("")
 public class PostController {
 
     @Autowired
-    PostRepository repository;
+    private PostRepository repository;
+    private UserRepository userRepository;
 
     @Autowired
-    public PostController(PostRepository repository) {
+    public PostController(PostRepository repository, UserRepository userRepository) {
         this.repository = repository;
+        this.userRepository = userRepository;
     }
 
     @GetMapping({"/", "/list"})
     public String list(Model model) {
         model.addAttribute("posts", repository.findAll());
         return "postlist";
+    }
+
+    @GetMapping(path = "/login")
+    public String loginTemplate(){
+        return "login";
+    }
+
+    @PostMapping("/login")
+    public String loginPage(@RequestParam("name") String name) {
+        return "redirect:/?name" + name;
     }
 
     @GetMapping("/remaining")

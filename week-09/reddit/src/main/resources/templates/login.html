@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Login page</title>
+</head>
+<body>
+<h1>Welcome to my Reddit-clone site</h1>
+<p>Please provide your name to see your personal posts</p>
+
+<form action="#" th:action="@{/login}" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <button type="submit">Log in</button>
+</form>
+
+
+<script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+</body>
+</html>

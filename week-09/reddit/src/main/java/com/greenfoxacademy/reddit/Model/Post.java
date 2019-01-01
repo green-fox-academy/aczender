@@ -15,6 +15,10 @@ public class Post {
     @Temporal(TemporalType.DATE)
     private Date date;
 
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id")
+    private User user;
+
     public Post() {
         this.date = new Date();
     }
@@ -63,5 +67,13 @@ public class Post {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }
