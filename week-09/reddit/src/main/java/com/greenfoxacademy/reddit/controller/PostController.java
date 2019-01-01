@@ -1,15 +1,12 @@
 package com.greenfoxacademy.reddit.controller;
 
 import com.greenfoxacademy.reddit.Model.Post;
-import com.greenfoxacademy.reddit.Model.User;
 import com.greenfoxacademy.reddit.repository.PostRepository;
 import com.greenfoxacademy.reddit.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @Controller
 @RequestMapping("")
@@ -31,18 +28,8 @@ public class PostController {
         return "postlist";
     }
 
-    @GetMapping(path = "/login")
-    public String loginTemplate(){
-        return "login";
-    }
-
-    @PostMapping("/login")
-    public String loginPage(@RequestParam("name") String name) {
-        return "redirect:/?name" + name;
-    }
-
     @GetMapping("/remaining")
-    public String remainder (Model model) {
+    public String remainder(Model model) {
         model.addAttribute("posts", repository.findAllByTitle());
         return "postlist";
     }
@@ -51,11 +38,13 @@ public class PostController {
     @GetMapping("/submit")
     public String addForm(Model model) {
         model.addAttribute("post", new Post());
+        model.addAttribute("assignUser", userRepository.findAll());
         return "addposts";
     }
 
     @PostMapping("/submit")
-    public String submitPost(@ModelAttribute(name = "post") Post post) {
+    public String submitPost(@ModelAttribute(name = "post") Post post, @ModelAttribute(value = "n") String n) {
+        post.setUser(userRepository.findByName(n));
         repository.save(post);
         return "redirect:/";
     }
@@ -75,6 +64,5 @@ public class PostController {
         repository.save(downvoted);
         return "redirect:/";
     }
-
 
 }

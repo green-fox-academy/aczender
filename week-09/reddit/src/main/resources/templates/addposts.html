@@ -17,7 +17,11 @@
         <label>URL: </label>
         <input type="text" th:field="*{url}" required><br>
 
-        <button type="submit">Submit</button>
+        <select name="n">
+            <option th:each="i:${assignUser}" th:object="${i}" th:text="*{name}"></option>
+        </select><br>
+        <button type="submit">Submit</button><br>
+        <a th:href="@{/}">Cancel</a>
     </form>
 </div>
 <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>

@@ -6,6 +6,7 @@ import com.greenfoxacademy.reddit.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -18,6 +19,10 @@ public class UserService {
     public UserService(UserRepository userRepository, PostRepository repository) {
         this.userRepository = userRepository;
         this.repository = repository;
+    }
+
+    public List<User> getAll(){
+        return (List<User>) userRepository.findAll();
     }
 
     public User get(Long id) {
