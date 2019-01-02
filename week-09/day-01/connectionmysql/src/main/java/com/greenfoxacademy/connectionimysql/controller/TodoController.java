@@ -46,7 +46,7 @@ public class TodoController {
     }
 
     @PostMapping("/add")
-    public String addTodo(@ModelAttribute(name = "todo") Todo todo, @RequestParam(value = "dueDate") String date) {
+    public String addTodo(@ModelAttribute(name = "todo") Todo todo) {
         todoRepository.save(todo);
         return "redirect:list";
     }
