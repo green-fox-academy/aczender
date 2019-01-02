@@ -20,7 +20,7 @@ public class Todo {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dueDate;
 
-    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "assignee_id")
     private Assignee assignee;
 
