@@ -13,9 +13,11 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/todo")        //Create a new controller called TodoController which maps to
 public class TodoController {
 
-
+    @Autowired
     private TodoRepository todoRepository;
     private AssigneeRepository assigneeRepository;
+
+    @Autowired
     TodoService service;
 
 
@@ -44,7 +46,7 @@ public class TodoController {
     }
 
     @PostMapping("/add")
-    public String addTodo(@ModelAttribute(name = "todo") Todo todo) {
+    public String addTodo(@ModelAttribute(name = "todo") Todo todo, @RequestParam(value = "dueDate") String date) {
         todoRepository.save(todo);
         return "redirect:list";
     }
@@ -71,9 +73,8 @@ public class TodoController {
     }
 
     @PostMapping("/search")
-    public String searchElements(Model model, @RequestParam(value = "search", required = false) String d, @RequestParam(value = "search", required = false) String s) {
-        model.addAttribute("todos", todoRepository.findByTitleContaining(d));
-        model.addAttribute("assignees", assigneeRepository.findAllByName(s));
+    public String searchElements(Model model, @RequestParam(value = "search", required = false) String text) {
+        model.addAttribute("todos", todoRepository.findByTitleContainingOrAssignee_Name(text, text));
         return "todolist";
 
     }

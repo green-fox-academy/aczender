@@ -59,4 +59,8 @@ public class Assignee {
         this.todos = todos;
     }
 
+    @PreRemove
+    public void setNull() {
+        todos.forEach(a -> a.setAssignee(null));
+    }
 }

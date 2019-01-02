@@ -28,8 +28,8 @@
                <option th:each="i:${editassignee}" th:object="${i}" th:text="*{name}"></option>
             </select>
 
-            <label th:text="dueDate">Due Date</label>
-            <input type="date" th:value="*{dueDate}" name="duedate">
+            <label for="dueDate" th:text="dueDate">Due Date</label>
+            <input type="date" th:value="*{dueDate}" name="duedate" id="dueDate">
 
 
             <button type="submit">Save</button>

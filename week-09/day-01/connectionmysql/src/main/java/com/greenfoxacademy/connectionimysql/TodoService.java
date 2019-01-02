@@ -6,7 +6,6 @@ import com.greenfoxacademy.connectionimysql.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -25,11 +24,6 @@ public class TodoService {
     public List<Todo> getAll() {
         return (List<Todo>) todoRepository.findAll();
     }
-
-//    public List<Todo> searchTodos(String s) {
-//        List<Todo> searchedToDos = todoRepository.findAllByTitle(s);
-//        return searchedToDos;
-//    }
 
 }
 

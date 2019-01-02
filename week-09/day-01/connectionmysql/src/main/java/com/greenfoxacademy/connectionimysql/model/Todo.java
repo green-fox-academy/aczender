@@ -17,8 +17,7 @@ public class Todo {
     @Temporal(TemporalType.DATE)
     private Date date;
 
-    @Column(name = "DUE_DATE")
-    @DateTimeFormat(pattern = "yyyy/mm/dd")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dueDate;
 
     @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
@@ -29,7 +28,6 @@ public class Todo {
         urgent = false;
         done = false;
         this.date = new Date();
-        this.dueDate = new Date();
     }
 
     public Todo(Boolean done, Boolean urgent, String title) {
@@ -37,7 +35,6 @@ public class Todo {
         this.urgent = false;
         this.title = title;
         this.date = new Date();
-        this.dueDate = new Date();
     }
 
 

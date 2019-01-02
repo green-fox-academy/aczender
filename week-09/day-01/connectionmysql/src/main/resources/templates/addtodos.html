@@ -13,6 +13,9 @@
         <label>Title</label>
         <input type="text" th:field="*{title}" required><br>
 
+        <label for="dueDate" th:text="dueDate">Due Date</label>
+        <input type="date" th:value="*{dueDate}" name="dueDate" id="dueDate">
+
         <button type="submit">Save</button>
     </form>
 </div>

@@ -60,8 +60,7 @@
                     <span th:unless="${todo.assignee != null}" th:text="|No assignee yet|"></span>
                 </td>
                 <td th:text="${todo.date}"></td>
-                <td th:text="${todo.dueDate}"></td>
-                </td>
+                <td th:text="${#dates.format(todo.getDueDate(), 'yyyy-MM-dd')}"></td>
 
                 <td>
                     <a class="btn btn-danger" th:href="@{{id}/delete(id=${todo.id})}">delete</a>
