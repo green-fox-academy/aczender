@@ -22,6 +22,11 @@ public class PostController {
         this.userRepository = userRepository;
     }
 
+    @GetMapping("/index")
+        public String index(){
+        return "index";
+    }
+
     @GetMapping({"/", "/list"})
     public String list(Model model) {
         model.addAttribute("posts", repository.findAll());

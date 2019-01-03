@@ -3,53 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="/webjars/bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="/webjars/code.jquery.com/jquery-1.11.1.min.js"></script>
     <title>Login page</title>
 </head>
 <body>
-<h1>Welcome to my Reddit-clone site</h1>
-<p>Please provide your name to see your personal posts</p>
-<a class="btn btn-info" th:href="@{adduser}">Create new user</a>
-
-
-<div class="container">
-    <form action="#" th:action="@{login}" th:object="${users}" method="get" class="form-inline mr-auto">
-    </form>
-
-    <div class="title">
-        <table class="table table-hover">
-            <thead>
-            <tr>
-                <th scope="col">ID</th>
-                <th scope="col">NAME</th>
-            </tr>
-            </thead>
-
-            <tr scope="row" th:each="user : ${users}">
-                <th scope="row" th:text="${user.id}"></th>
-                <td>
-                    <a th:href="@{users/{id} (id=${user.id})}" th:text="*{user.name}"></a>
-        </table>
-
-    </div>
+<div class="text-center">
+    <h1>Welcome to my Reddit-clone site</h1>
+    <p>Please provide your name to see your personal posts</p>
+    <a class="btn btn-info" th:href="@{adduser}">Create new user</a><br>
+    <a class="btn btn-warning" th:href="@{/userlist}">Users</a><br>
+    <a th:href="@{/}">Cancel</a><br>
 </div>
 
-<a th:href="@{/}">Cancel</a>
-
-
+<div class="container">
+    <form action="#" th:action="@{usersposts}" th:object="${users}" method="get">
+        <div class="glyphicon-log-in">
+            <input type="text" name="login" placeholder="Name" required>
+            <button class="buttonSign" type="submit">Log in</button>
+        </div>
+    </form>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+    </tr>
+</div>
 <!--<div class="container">-->
 <!--<div>-->
-<!--<form action="#" th:action="@{/login}" th:object="${toedit}" method="post">-->
-<!--<input hidden type="text" name="id" id="id" th:field="*{id}" required><br>-->
-<!--<label>Name</label>-->
-<!--<select name="n">-->
-<!--<option th:each="i:${edituser}" th:object="${i}" th:text="*{name}"></option>-->
-<!--</select>-->
-<!--<button type="submit">Log in</button>-->
+<!--<form action="#" th:action="@{login}" method="post" class="form-inline mr-auto">-->
+<!--<div class="row">-->
+<!--<div class="col-md-6 col-md-offset-3">-->
+<!--<div class="panel panel-login">-->
+<!--<div class="panel-heading">-->
+<!--<div class="row">-->
+<!--<div class="col-xs-6">-->
+<!--<a href="#" class="active" id="login-form-link">Login</a>-->
+<!--</div>-->
+<!--<div class="col-xs-6">-->
+<!--<a href="#" id="register-form-link">Register</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--<hr>-->
+<!--</div>-->
+<!--<div class="panel-body">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-12">-->
+<!--<form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">-->
+<!--<div class="form-group">-->
+<!--<input hidden type="text" name="id" id="id">-->
+<!--<input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="Username" value="">-->
+<!--</div>-->
+<!--<div class="form-group">-->
+<!--<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">-->
+<!--</div>-->
+<!--<div class="form-group text-center">-->
+<!--<input type="checkbox" tabindex="3" class="" name="remember" id="remember">-->
+<!--<label for="remember"> Remember Me</label>-->
+<!--</div>-->
+<!--<div class="form-group">-->
+<!--<div class="row">-->
+<!--<div class="col-sm-6 col-sm-offset-3">-->
+<!--<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;<div class="col-lg-12">&ndash;&gt;-->
+<!--&lt;!&ndash;<div class="text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;<a href="https://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</form>-->
+<!--<form id="register-form" action="https://phpoll.com/register/process" method="post" role="form" style="display: none;">-->
+<!--<div class="form-group">-->
+<!--<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">-->
+<!--</div>-->
+<!--<div class="form-group">-->
+<!--<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">-->
+<!--</div>-->
+<!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--<div class="form-group">-->
+<!--<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">-->
+<!--</div>-->
+<!--<div class="form-group">-->
+<!--<div class="row">-->
+<!--<div class="col-sm-6 col-sm-offset-3">-->
+<!--<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <!--</form>-->
 <!--</div>-->
 <!--</div>-->
-
-
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</form>-->
+<!--</div>-->
+<!--</div>-->
 <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
 <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>

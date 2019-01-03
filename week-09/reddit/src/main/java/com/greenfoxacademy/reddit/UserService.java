@@ -21,8 +21,12 @@ public class UserService {
         this.repository = repository;
     }
 
-    public List<User> getAll(){
+    public List<User> getAll() {
         return (List<User>) userRepository.findAll();
+    }
+
+    public User findByName(String n) {
+        return userRepository.findByName(n);
     }
 
     public User get(Long id) {
