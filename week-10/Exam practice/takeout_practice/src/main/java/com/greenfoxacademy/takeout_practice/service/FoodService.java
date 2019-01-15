@@ -47,8 +47,22 @@ public class FoodService {
         foodRepository.save(food);
     }
 
-    public Food findTopAndStat(String topping, String status) {
-        return foodRepository.findByToppingAndStatus(topping, status);
+    public boolean validateStatus(String status) {
+        return status.equals("ordered") || status.equals("inprogress") || status.equals("done");
+    }
+
+    public boolean validateType(String type) {
+        return type.equals("all") || type.equals("vegetarian");
+    }
+
+    public List<Food> findFoodOrders(String type, String status) {
+        if (type.equals("all")) {
+            return foodRepository.findAllByStatus(status);
+        }
+        if (type.equals("vegetarian")) {
+            return foodRepository.findAllByStatusAndTopping(status, "Smoked tofu");
+        }
+        return null;
     }
 
 //    public List<Food> listTopAndStat() {

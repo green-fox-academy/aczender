@@ -1,5 +1,7 @@
 package com.greenfoxacademy.takeout_practice.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,6 +14,7 @@ public class Food {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long orderId;
     private String name;
+    @JsonIgnore
     private String address;
     private String base;
     private String topping;
