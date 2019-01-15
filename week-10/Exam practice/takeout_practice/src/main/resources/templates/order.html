@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Order summary</title>
+</head>
+<h2><strong>Order details</strong></h2>
+<body>
+<div class="container" th:object="${order}">
+    <div>
+        <span th:text="|Name: *{name}|"></span>
+    </div>
+    <div>
+        <span th:text="|Address: *{address}|"></span>
+    </div>
+    <div>
+        <span th:text="|Base: *{base}|"></span>
+    </div>
+    <div>
+        <span th:text="|Topping: *{topping}|"></span>
+    </div>
+    <div>
+        <span th:text="|Status: *{status}|"></span>
+    </div>
+</div>
+
+</body>
+</html>
