@@ -25,8 +25,16 @@
 
 
             <select name="n">
-               <option th:each="i:${editassignee}" th:object="${i}" th:text="*{name}"></option>
+                <option value=""></option>
+                <option th:each="i:${editassignee}" th:object="${i}" th:text="*{name}"></option>
             </select>
+
+            <!--PICK AN ASSIGNEE WITH RADIO BUTTONS-->
+            <!--<div th:each="i:${editassignee}">-->
+                <!--<input type="radio" th:field="*{assignee.name}" th:value="${i.name}"/>-->
+                <!--<label th:for="${#ids.prev('assignee.name')}" th:text="${i.name}"></label>-->
+            <!--</div>-->
+
 
             <label for="dueDate" th:text="dueDate">Due Date</label>
             <input type="date" th:value="*{dueDate}" name="dueDate" id="dueDate">

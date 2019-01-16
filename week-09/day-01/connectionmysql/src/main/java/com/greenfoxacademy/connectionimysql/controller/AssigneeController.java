@@ -12,22 +12,22 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("assignee")
 public class AssigneeController {
 
-    AssigneeService service;
-
-    private AssigneeRepository assigneeRepository;
+    @Autowired
+    AssigneeService assigneeService;
+    AssigneeRepository assigneeRepository;
 
     @Autowired
-    public AssigneeController(AssigneeRepository assigneeRepository, AssigneeService service) {
+    public AssigneeController(AssigneeRepository assigneeRepository, AssigneeService assigneeService) {
         this.assigneeRepository = assigneeRepository;
-        this.service = service;
+        this.assigneeService = assigneeService;
     }
 
     @GetMapping({"/","/assigneelist"})
-    public String assilist(Model model, @RequestParam(value = "search", required = false) String s) {
-        if (s != null) {
-            model.addAttribute("assignees", assigneeRepository.findAllByName(s));
+    public String assilist(Model model, @RequestParam(value = "search", required = false) String n) {
+        if (n != null) {
+            model.addAttribute("assignees", assigneeService.findAll(n));
         } else {
-            model.addAttribute("assignees", service.getAll());
+            model.addAttribute("assignees", assigneeService.getAll());
         }
         return "assigneelist";
     }
@@ -53,7 +53,7 @@ public class AssigneeController {
 
     @GetMapping("/{id}/aedit")
     public String editForm(@PathVariable Long id, Model model) {
-        model.addAttribute("toedita", assigneeRepository.findById(id).get());
+        model.addAttribute("toedita", assigneeService.get(id));
         return "editassignees";
 
     }
@@ -66,7 +66,7 @@ public class AssigneeController {
 
     @GetMapping("/assignees/{id}")
     public String singleAssignee(Model model, @PathVariable Long id) {
-        model.addAttribute("singleassignee",service.get(id) );
+        model.addAttribute("singleassignee",assigneeService.get(id) );
         return "assignedtodos";
     }
 

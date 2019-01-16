@@ -38,4 +38,10 @@ public class AssigneeService {
         Assignee assignee = this.get(id);
         assignee.getTodos();
     }
+
+    public List<Assignee> findAll(String n){
+        return (List<Assignee>) assigneeRepository.findByName(n);
+    }
+
+
 }

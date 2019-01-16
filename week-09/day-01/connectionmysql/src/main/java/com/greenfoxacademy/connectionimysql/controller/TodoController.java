@@ -1,6 +1,7 @@
 package com.greenfoxacademy.connectionimysql.controller;
 
 import com.greenfoxacademy.connectionimysql.TodoService;
+import com.greenfoxacademy.connectionimysql.model.Assignee;
 import com.greenfoxacademy.connectionimysql.model.Todo;
 import com.greenfoxacademy.connectionimysql.repository.AssigneeRepository;
 import com.greenfoxacademy.connectionimysql.repository.TodoRepository;
@@ -8,6 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
 
 @Controller
 @RequestMapping("/todo")        //Create a new controller called TodoController which maps to
@@ -51,7 +55,7 @@ public class TodoController {
         return "redirect:list";
     }
 
-    @GetMapping(value = "/{id}/delete")
+        @PostMapping(value = "/{id}/delete")
     public String delete(@PathVariable Long id) {
         todoRepository.deleteById(id);
         return "redirect:/todo/list";
@@ -67,13 +71,12 @@ public class TodoController {
 
     @PostMapping("/edit")
     public String saveUpdate(@ModelAttribute(name = "toedit") Todo todo, @ModelAttribute(value = "n") String n) {
-        todo.setAssignee(assigneeRepository.findByName(n));
-        todoRepository.save(todo);
+        service.saveUpdatedTodo(todo, n);
         return "redirect:list";
     }
 
-    @PostMapping("/search")
-    public String searchElements(Model model, @RequestParam(value = "search", required = false) String text) {
+    @GetMapping("/search")
+    public String searchElements(Model model, @RequestParam(value = "keyword", required = false) String text) {
         model.addAttribute("todos", todoRepository.findByTitleContainingOrAssignee_Name(text, text));
         return "todolist";
 

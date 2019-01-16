@@ -20,7 +20,7 @@ public class Todo {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dueDate;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "assignee_id")
     private Assignee assignee;
 
@@ -45,6 +45,7 @@ public class Todo {
     public Boolean getUrgent() {
         return urgent;
     }
+
 
     public String getTitle() {
         return title;
