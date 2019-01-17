@@ -11,6 +11,7 @@
     <h2><strong>TODOS FOR TODAY</strong></h2>
     <a class="btn btn-warning" th:href="@{add}">Add new todo</a>
     <a class="btn btn-block" th:href="@{/assignee/}">List of Assignees</a>
+    <a class="btn btn-info" th:href="@{/todo/list?isActive=true}" th:text="'Active tasks'"> </a>
 
 </div>
 
@@ -47,10 +48,12 @@
             <tr scope="row" th:each="todo: ${todos}">
                 <th scope="row" th:text="${todo.id}"></th>
                 <td th:text="${todo.title}"></td>
-                <td>
-                    <span th:if="${todo.done}" class="glyphicon glyphicon-ok"></span>
-                    <span th:unless="${todo.done}" class="glyphicon glyphicon-remove"></span>
-                </td>
+                <!--<td>-->
+                    <!--<span th:if="${todo.done}" class="glyphicon glyphicon-ok"></span>-->
+                    <!--<span th:unless="${todo.done}" class="glyphicon glyphicon-remove"></span>-->
+                <!--</td>-->
+                <td id="done" th:if="${todo.getDone()}"><i class="glyphicon glyphicon-ok"></i></td>
+                <td th:unless="${todo.getDone()}"><i class="glyphicon glyphicon-remove"></i></td>
                 <td>
                     <span th:if="${todo.urgent}" class="glyphicon glyphicon-ok"></span>
                     <span th:unless="${todo.urgent}" class="glyphicon glyphicon-remove"></span>

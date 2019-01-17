@@ -30,6 +30,11 @@ public class Todo {
         this.date = new Date();
     }
 
+    public Todo(String title) {
+        this();
+        this.title = title;
+    }
+
     public Todo(Boolean done, Boolean urgent, String title) {
         this.done = false;
         this.urgent = false;

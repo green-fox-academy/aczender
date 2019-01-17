@@ -34,8 +34,9 @@ public class TodoController {
     public String list(Model model, @RequestParam(value = "isActive", required = false) Boolean isActive) {
         if (isActive == null) {
             model.addAttribute("todos", service.getAll());
-        } else if (isActive) {
-            model.addAttribute("todos", todoRepository.findByDone(! isActive));
+
+        } else if (isActive != null && isActive) {
+            model.addAttribute("todos", todoRepository.findByDone(!isActive));
         }
         return "todolist";
     }
