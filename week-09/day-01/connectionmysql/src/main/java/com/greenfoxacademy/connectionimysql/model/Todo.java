@@ -14,7 +14,7 @@ public class Todo {
     private Boolean done;
     private Boolean urgent;
     private String title;
-    @Temporal(TemporalType.DATE)
+    @Temporal(TemporalType.TIMESTAMP)
     private Date date;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")

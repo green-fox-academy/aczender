@@ -12,6 +12,10 @@ public interface TodoRepository extends CrudRepository<Todo, Long> {
 
     List<Todo> findByTitleContainingOrAssignee_Name (String title, String assignee);
 
+//    @Query(value = "SELECT * FROM Todo ORDER BY date ASC", nativeQuery = true)
+    List<Todo> findAll();
+
+
 
 
 }
