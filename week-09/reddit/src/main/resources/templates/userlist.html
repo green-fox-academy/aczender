@@ -13,15 +13,22 @@
         <table class="table table-hover">
             <thead>
             <tr>
-                <th scope="col">ID</th>
                 <th scope="col">NAME</th>
             </tr>
             </thead>
             <tr scope="row" th:each="user: ${users}">
-                <th scope="row" th:text="${user.id}"></th>
                 <td>
-                    <a th:href="@{users/{id} (id=${user.id})}" th:text="*{user.name}"> </a>
+                    <a th:href="@{users/{name} (name=${user.name})}" th:text="*{user.name}"> </a>
                 </td>
+                <td>
+                    <a class="btn btn-danger" th:href="@{{name}/remove(name=${user.name})}">delete</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
 </div>
+<script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>

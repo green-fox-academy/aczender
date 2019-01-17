@@ -8,15 +8,36 @@
 
 
 <body>
-<div>
-    <form action="#" th:action="@{adduser}" th:object="${add}" method="post">
-
-        <label>Name</label>
-        <input type="text" th:field="*{name}" required><br>
 
 
-        <button type="submit">Save</button>
-    </form>
+<form action="#" th:action="@{adduser}" method="post">
+    <div class="col-xs-4">
+        <label for="reg_username">Name</label>
+        <input type="text" class="form-control" id="reg_username" aria-describedby="nameHelp" placeholder="Enter name" required>
+        <small id="nameHelp" class="form-text text-muted">We'll never share your name with anyone else.</small><br>
+    </div>
+    <div class="col-xs-4">
+        <label for="reg_password">Password</label>
+        <input type="password" class="form-control" id="reg_password" placeholder="Password" required>
+    </div><br>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<!--<form action="#" th:action="@{adduser}" th:object="${add}" method="post">-->
+    <!--<div class="col-xs-4">-->
+        <!--<label for="name">Name</label>-->
+        <!--<input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name" th:field="*{name}" required>-->
+        <!--<small id="nameHelp" class="form-text text-muted">We'll never share your name with anyone else.</small><br>-->
+    <!--</div>-->
+    <!--<div class="col-xs-4">-->
+        <!--<label for="password">Password</label>-->
+        <!--<input type="password" class="form-control" id="password" placeholder="Password" th:field="*{password}" required>-->
+    <!--</div><br>-->
+
+    <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+<!--</form>-->
+
 </div>
 <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
 <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>

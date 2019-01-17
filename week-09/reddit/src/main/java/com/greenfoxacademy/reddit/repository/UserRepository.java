@@ -5,8 +5,10 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface UserRepository extends CrudRepository<User, Long> {
-    List<User> findAllByName(String n);
+public interface UserRepository extends CrudRepository<User, String> {
+    User findByNameAndPassword (String name, String password);//DZSOFA
 
-    User findByName(String n);
+    User findByName(String name);
+
+    User deleteByName (String name);
 }

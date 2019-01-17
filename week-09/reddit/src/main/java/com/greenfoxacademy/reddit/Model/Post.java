@@ -15,8 +15,8 @@ public class Post {
     @Temporal(TemporalType.DATE)
     private Date date;
 
-    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinColumn(name = "user_id")
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "user_name")
     private User user;
 
     public Post() {

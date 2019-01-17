@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet"/>
-    <title th:text="|Posts assigned to a single user ${singleuser.id}|"></title>
+    <title th:text="|Posts assigned to a single user ${user.name}|"></title>
 </head>
 
 <body>
+<div class="container text-info">
 
 <a th:href="@{/}">Back</a>
-<h3 th:text="${singleuser.name}"></h3>
+<h3 th:text="|Welcome ${user.name}, on your personal Reddit-clone site|"></h3>
 
 <h3>Posts for you</h3>
 
 <ul>
-    <li th:each="post : ${singleuser.posts}">
+    <li th:each="post : ${user.posts}">
         <span th:text="${post.title}"></span>
     </li>
 </ul>
+</div>
 
 <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
 <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>

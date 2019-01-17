@@ -9,27 +9,20 @@ import java.util.List;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
     private String name;
+    private String password;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "user")
     private List<Post> posts;
 
-    public User(){
+    public User() {
         this.posts = new ArrayList<>();
     }
 
-    public User(String name){
+    public User(String name, String password) {
         this.name = name;
-    }
+        this.password = password;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -46,5 +39,18 @@ public class User {
 
     public void setPosts(List<Post> posts) {
         this.posts = posts;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    @PreRemove
+    public void setNull() {
+        posts.forEach(a -> a.setUser(null));
     }
 }
