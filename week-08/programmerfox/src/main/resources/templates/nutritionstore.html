@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>nutrition</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+<div>
+    <form action="#" th:action="@{/nutritionstore/add?name=}+${fox.name}" method="post">
+        <label >Food</label>
+        <select th:field="${fox.food}">
+            <option value="grass">grass</option>
+            <option value="pizza">pizza</option>
+        </select>
+
+        <label>Drink</label>
+        <select th:field="${fox.drink}">
+            <option value="water">Water</option>
+            <option value="tea">Tea</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
