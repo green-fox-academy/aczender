@@ -16,7 +16,6 @@ public class Aircraft {
     public int fight() {
         int damage = baseDamage * ammo;
         ammo = 0;
-
         return damage;
     }
 
@@ -36,7 +35,9 @@ public class Aircraft {
     }
 
     public String getStatus() {
-        return "Type " + getType() + ", Ammo: " + ammo + ", Base Damage: " + baseDamage + ", All Damage: " + baseDamage * ammo;
+        return "Type " + getType() + ", Ammo: " + ammo
+                + ", Base Damage: " + baseDamage
+                + ", All Damage: " + baseDamage * ammo;
     }
 
     public boolean isPriority() {

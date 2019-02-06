@@ -59,11 +59,12 @@ class Carrier {
         }
         return totalDamage;
     }
-//take another carrier as a refrence parameter and fire all the ammo from the aircrafts to it, than substract all the damage from it's health points
+//take another carrier as a reference parameter and fire all the ammo from the aircrafts to it, than subtract all the damage from it's health points
 
     void fight(Carrier other) {
+        other.healthPoints -= totalDamage();
         for (Aircraft aircraft : aircrafts) {
-            other.healthPoints -= totalDamage();
+            aircraft.fight();
         }
     }
 
