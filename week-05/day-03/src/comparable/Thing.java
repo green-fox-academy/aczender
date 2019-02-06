@@ -20,13 +20,13 @@ public class Thing implements Comparable<Thing> {
 
     @Override
     public int compareTo(Thing t) {
-        if ((this.completed)) {
-            return -1;
-        }else if (this.completed){
+        if ((this.completed == t.completed)) {
+            return this.name.compareTo(t.name);
+        } else if (this.completed) {
+            return - 1;
+        } else {
             return 1;
-        }else{
-            return 0;
         }
 
-        }
     }
+}

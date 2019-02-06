@@ -1,7 +1,5 @@
 package comparable;
 
-import java.util.Arrays;
-
 public class Domino implements Comparable<Domino> {
     private final int left;
     private final int right;
@@ -26,9 +24,12 @@ public class Domino implements Comparable<Domino> {
 
     @Override
     public int compareTo(Domino o) {
-        // return toString().compareTo(o.toString());
+//        return this.left-o.left;
+
+//         return toString().compareTo(o.toString());
+
         if (this.getLeftSide() < o.getLeftSide()) {
-            return -1;
+            return - 1;
         } else if (this.getLeftSide() > o.getLeftSide()) {
             return 1;
         } else {
