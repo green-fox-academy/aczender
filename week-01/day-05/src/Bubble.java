@@ -18,9 +18,8 @@ public class Bubble {
                 }
             }
         }
-        String bubles  = Arrays.toString(ar);
-        return bubles;
-
+//        String bubles  = Arrays.toString(ar);
+//        return bubles;
+        return Arrays.toString(ar);
     }
-
 }

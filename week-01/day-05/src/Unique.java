@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Unique {
@@ -11,7 +10,7 @@ public class Unique {
         int[] list = {1, 11, 34, 11, 52, 61, 1, 34};
         int[] list1 = even(list);
 
-        for (int i = 0; i < list1.length ; i++) {
+        for (int i = 0; i < list1.length; i++) {
             System.out.println(list1[i]);
         }
     }

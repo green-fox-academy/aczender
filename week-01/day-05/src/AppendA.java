@@ -6,8 +6,5 @@ public class AppendA {
     public static String appendAFunc(String typo){
 
         return typo + "a";
-
-
-
     }
 }

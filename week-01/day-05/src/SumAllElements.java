@@ -6,8 +6,6 @@ public class SumAllElements {
 
         for (int i = 0; i < ai.length; i++) {
             sum = sum + ai[i];
-
-
         }
         System.out.println(sum);
 

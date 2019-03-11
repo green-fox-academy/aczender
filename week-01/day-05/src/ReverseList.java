@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class ReverseList {
     public static void main(String[] args) {
         int[] aj = {3, 4, 5, 6, 7};
@@ -15,9 +13,6 @@ public class ReverseList {
 
         for (int i = 0; i < aj.length; i++) {
             System.out.print(aj[i]);
-
         }
-
-
     }
 }

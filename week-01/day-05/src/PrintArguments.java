@@ -26,6 +26,5 @@ public class PrintArguments {
         }
         System.out.print("\n");
     }
-
 }
 

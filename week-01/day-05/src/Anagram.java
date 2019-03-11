@@ -10,7 +10,6 @@ public class Anagram {
         String second = scanner.next();
 
         System.out.println(anagram(first, second));
-
     }
 
     public static boolean anagram(String first, String second) {
@@ -25,7 +24,6 @@ public class Anagram {
         Arrays.sort(test2);
         if (Arrays.equals(test1, test2))
             return true;
-
         else
             return false;
     }
