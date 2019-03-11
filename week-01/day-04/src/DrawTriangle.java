@@ -17,7 +17,5 @@ public class DrawTriangle {
                 System.out.print("*");
             }
         }
-
-
     }
 }

@@ -10,15 +10,11 @@ public class DrawChessTable {
                 }
                 System.out.print("%");
 
-
                 if (i % 2 == 0 && j == column-1 ) {
                     System.out.print(" ");
                 }
-
             }
             System.out.println();
-
-
         }
     }
 }

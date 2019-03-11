@@ -7,7 +7,5 @@ public class MileToKmConverter {
         System.out.println ("Please add a km amount: ");
         int kmAmount = scanner.nextInt();
         System.out.println("Your km in miles: " + kmAmount*0.621371192);
-
-
     }
 }

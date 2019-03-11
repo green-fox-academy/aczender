@@ -16,7 +16,6 @@ public class GuessTheNumber {
         int number;
         int guess = 0;
 
-
         do {
             System.out.print("Guess a number: ");
             Scanner scanner = new Scanner(System.in);
@@ -36,6 +35,5 @@ public class GuessTheNumber {
         } else if (guess == 10) {
             System.out.println("You lost");
         }
-
     }
 }

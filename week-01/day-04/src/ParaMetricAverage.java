@@ -13,9 +13,7 @@ public class ParaMetricAverage {
             sum += scanner.nextInt();
         }
 
-
         double average = sum / number;
-
 
         System.out.println("Sum: " + sum + "\r\n" + "Average: " + average);
     }
